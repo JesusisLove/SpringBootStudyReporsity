@@ -1,0 +1,7 @@
+ package com.example.demo.controller;
+
+public class QuickInController {
+	public String quickIn() {
+		return "Hello SpringBoot!";
+	}
+}
