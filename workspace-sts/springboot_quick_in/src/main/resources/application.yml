@@ -1,0 +1,55 @@
+#（一）普通数据的配置
+#name:zhangsan❌ 冒号之后一定要有空格，这是yml文件的一个语法规则
+name: zhangsan
+
+#（二 ）对象的配置
+#方式一
+person:
+  name: zhangsan
+  age: 18
+  addr: Japan
+  
+ #方式二：行内对象的配置
+#person1: {name: zhangsan,age: 18,addr: Japan}
+
+ #（三 ）数组（Array）或集合（List）的配置
+ #放的时普通字符串  
+ #方式一
+city:
+  -Tokyo
+  -Ousaka
+  -Hokkaido
+  -Nagoya 
+#方式二：行内对象的配置
+#cty1: [Tokyo,Ousaka,Hokkaido,Nagoya]
+
+ #（四 ）数组或集合的配置(里面盛放的是对象数据)
+ #方式一
+Student:
+  - name: zhang san
+    age: 18
+    addr: Tokyo
+  - name: Li si
+    age: 16
+    addr: Nagoya 
+  - name: wang wu
+    age: 17
+    addr: Ousaka 
+ #方式二：行内对象的配置
+#Student1: [{name: zhang san,age: 18,addr: Tokyo},{name: Li si,age: 16,addr: Nagoya},{name: wang wu,age: 17,addr: Ousaka}]
+
+#Map的配置(普通值)
+map1:
+ key1: value1
+ key2: value2
+ 
+ #Map的配置(对象值)
+map2:
+ key1:
+      - name: zhang san
+        age: 18
+        addr: Tokyo
+ key2: 
+      - name: li si
+        age: 16
+        addr: Nagoya

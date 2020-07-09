@@ -1,0 +1,3 @@
+#普通数据的配置
+#name:zhangsan❌ 冒号之后一定要有空格，这是yml文件的一个语法规则
+name: zhangsan
