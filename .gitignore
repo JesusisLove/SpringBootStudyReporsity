@@ -1,0 +1,11 @@
+#指定git不能忽略的追踪文件
+!.gitignore
+!*.java
+!*.properties
+!*.yaml
+!*.yml
+!*.xml
+
+#指定git忽略追踪下面目录
+workspace-sts/.metadata/*
+.DS_Store
