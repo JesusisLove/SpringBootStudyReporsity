@@ -7,7 +7,7 @@
 !*.xml
 
 #指定git忽略追踪下面目录
-workspace-sts/.metadata/*.*
+/workspace-sts/.metadata/*.*
 .DS_Store
 workspace-sts/.metadata/.log
 workspace-sts/.metadata/.plugins/org.eclipse.core.resources/.projects/demo/.markers.snap
