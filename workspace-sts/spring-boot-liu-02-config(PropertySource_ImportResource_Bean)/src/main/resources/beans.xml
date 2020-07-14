@@ -1,4 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<!-- 学习SpringBoot之 @PropertySource,@ImportResource,@Bean（一）
+写好了Bean的xml配置文件之后，需要在主程序（即，标有@SpringBootApplication）的程序里添加如下注解
+@ImportResource (locations = {"classpath:beans.xml"}) //⭐⭐⭐知识点️️️️导入Spring的配置文件，让自定义的XML文件（如beans.xml）内容生效；
+-->
 <!-- 学习SpringBoot之 @PropertySource,@ImportResource,@Bean（二）
 SpringBoot不建议采用编写XML配置文件的方式使用
  -->

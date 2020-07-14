@@ -13,8 +13,9 @@ import org.springframework.web.bind.annotation.RestController;
 @SpringBootApplication
 @RestController
 /* 学习SpringBoot之 @PropertySource,@ImportResource,@Bean（二）
- *  SpringBoot不推荐使用xml配置文件来配置容器组件，推荐用户写配置类：参考用户写的配置类 --> MyAppConfig.java
- *  @ImportResource (locations = {"classpath:beans.xml"}) //⭐⭐⭐知识点️️️️导入Spring的配置文件，让自定义的XML文件（如beans.xml）内容生效；
+ *  SpringBoot不推荐使用xml配置文件来配置容器组件，推荐用户写配置类：参考用户写的配置类 --> MyAppConfig.java，
+ *  同时将下面的 @ImportResource (locations = {"classpath:beans.xml"}) 注解注释掉不要了，去新规一个配置类（如MyAppConfig.java)
+ *  // @ImportResource (locations = {"classpath:beans.xml"}) //⭐⭐⭐知识点️️️️导入Spring的配置文件，让自定义的XML文件（如beans.xml）内容生效；
 */
 public class SpringBootLiu02ConfigApplication {
 
