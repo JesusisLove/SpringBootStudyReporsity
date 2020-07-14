@@ -3,6 +3,6 @@
 			"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <mapper namespace="com.example.demo.mapper.TUserMapper">
 	<select id="queryUserList" resultType="TUser">
-		select username,password,name from t_user
+		select * from liudb.t_user
 	</select>
 </mapper>

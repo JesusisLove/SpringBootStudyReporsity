@@ -3010,3 +3010,699 @@ org.eclipse.core.runtime.CoreException: Could not resolve artifact org.mybatis.s
 2020-07-13 19:39:23,709 [Worker-299: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
 2020-07-13 19:39:23,710 [Worker-299: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2020-07-13 19:39:23,710 [Worker-299: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/liuyimin/Documents/02_个人篇/201_学习/SpringBootStudyReporsity/workspace-sts/spring-boot-liu-02-config(ConfigrationProperties_and_Value)/src/test/resources
+2020-07-13 20:02:15,127 [Worker-301: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.example:spring-boot-liu-01-helloworld:0.0.1-SNAPSHOT @ /Users/liuyimin/Documents/02_个人篇/201_学习/SpringBootStudyReporsity/workspace-sts/spring-boot-liu-02-config(PropertySource_ImportResource_Bean)/pom.xml.
+2020-07-13 20:02:15,237 [Worker-301: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-07-13 20:02:15,237 [Worker-301: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-07-13 20:02:15,238 [Worker-301: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-07-13 20:02:15,239 [Worker-301: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-07-13 20:02:15,239 [Worker-301: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/liuyimin/Documents/02_个人篇/201_学习/SpringBootStudyReporsity/workspace-sts/spring-boot-liu-02-config(PropertySource_ImportResource_Bean)/src/test/resources
+2020-07-13 20:02:16,519 [Worker-292: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-07-13 20:02:16,520 [Worker-292: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-07-13 20:02:16,521 [Worker-292: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-07-13 20:02:16,522 [Worker-292: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-07-13 20:02:16,522 [Worker-292: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/liuyimin/Documents/02_个人篇/201_学习/SpringBootStudyReporsity/workspace-sts/spring-boot-liu-02-config(PropertySource_ImportResource_Bean)/src/test/resources
+2020-07-13 20:15:33,404 [Worker-306: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-07-13 20:15:33,404 [Worker-306: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-07-13 20:15:33,405 [Worker-306: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-07-13 20:15:33,406 [Worker-306: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-07-13 20:15:33,406 [Worker-306: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/liuyimin/Documents/02_个人篇/201_学习/SpringBootStudyReporsity/workspace-sts/spring-boot-liu-02-config(PropertySource_ImportResource_Bean)/src/test/resources
+2020-07-13 20:16:26,932 [Worker-305: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-07-13 20:16:26,932 [Worker-305: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-07-13 20:16:26,932 [Worker-305: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-07-13 20:16:26,933 [Worker-305: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-07-13 20:16:26,933 [Worker-305: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/liuyimin/Documents/02_个人篇/201_学习/SpringBootStudyReporsity/workspace-sts/spring-boot-liu-02-config(PropertySource_ImportResource_Bean)/src/test/resources
+2020-07-13 20:18:26,294 [Worker-301: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-07-13 20:18:26,295 [Worker-301: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-07-13 20:18:26,295 [Worker-301: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-07-13 20:18:26,297 [Worker-301: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-07-13 20:18:26,297 [Worker-301: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/liuyimin/Documents/02_个人篇/201_学习/SpringBootStudyReporsity/workspace-sts/spring-boot-liu-02-config(PropertySource_ImportResource_Bean)/src/test/resources
+2020-07-13 20:22:55,173 [Worker-306: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-07-13 20:22:55,174 [Worker-306: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-07-13 20:22:55,175 [Worker-306: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-07-13 20:22:55,176 [Worker-306: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-07-13 20:22:55,176 [Worker-306: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/liuyimin/Documents/02_个人篇/201_学习/SpringBootStudyReporsity/workspace-sts/spring-boot-liu-02-config(PropertySource_ImportResource_Bean)/src/test/resources
+2020-07-13 20:22:59,672 [Worker-310: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-07-13 20:22:59,672 [Worker-310: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-07-13 20:22:59,673 [Worker-310: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-07-13 20:22:59,674 [Worker-310: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-07-13 20:22:59,674 [Worker-310: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/liuyimin/Documents/02_个人篇/201_学习/SpringBootStudyReporsity/workspace-sts/spring-boot-liu-02-config(PropertySource_ImportResource_Bean)/src/test/resources
+2020-07-13 20:23:28,030 [Worker-306: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-07-13 20:23:28,030 [Worker-306: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-07-13 20:23:28,031 [Worker-306: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-07-13 20:23:28,031 [Worker-306: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-07-13 20:23:28,031 [Worker-306: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/liuyimin/Documents/02_个人篇/201_学习/SpringBootStudyReporsity/workspace-sts/spring-boot-liu-02-config(PropertySource_ImportResource_Bean)/src/test/resources
+2020-07-13 20:24:33,739 [Worker-308: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-07-13 20:24:33,740 [Worker-308: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-07-13 20:24:33,740 [Worker-308: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-07-13 20:24:33,741 [Worker-308: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-07-13 20:24:33,741 [Worker-308: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/liuyimin/Documents/02_个人篇/201_学习/SpringBootStudyReporsity/workspace-sts/spring-boot-liu-02-config(PropertySource_ImportResource_Bean)/src/test/resources
+2020-07-13 20:25:29,409 [Worker-310: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-07-13 20:25:29,409 [Worker-310: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-07-13 20:25:29,409 [Worker-310: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-07-13 20:25:29,411 [Worker-310: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-07-13 20:25:29,411 [Worker-310: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/liuyimin/Documents/02_个人篇/201_学习/SpringBootStudyReporsity/workspace-sts/spring-boot-liu-02-config(PropertySource_ImportResource_Bean)/src/test/resources
+2020-07-13 20:26:17,147 [Worker-310: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-07-13 20:26:17,147 [Worker-310: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-07-13 20:26:17,149 [Worker-310: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-07-13 20:26:17,150 [Worker-310: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-07-13 20:26:17,150 [Worker-310: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/liuyimin/Documents/02_个人篇/201_学习/SpringBootStudyReporsity/workspace-sts/spring-boot-liu-02-config(PropertySource_ImportResource_Bean)/src/test/resources
+2020-07-13 20:30:39,965 [Worker-314: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-07-13 20:30:39,966 [Worker-314: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-07-13 20:30:39,966 [Worker-314: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-07-13 20:30:39,967 [Worker-314: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-07-13 20:30:39,967 [Worker-314: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/liuyimin/Documents/02_个人篇/201_学习/SpringBootStudyReporsity/workspace-sts/spring-boot-liu-02-config(PropertySource_ImportResource_Bean)/src/test/resources
+2020-07-13 20:31:07,672 [Worker-315: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-07-13 20:31:07,672 [Worker-315: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-07-13 20:31:07,672 [Worker-315: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-07-13 20:31:07,673 [Worker-315: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-07-13 20:31:07,673 [Worker-315: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/liuyimin/Documents/02_个人篇/201_学习/SpringBootStudyReporsity/workspace-sts/spring-boot-liu-02-config(PropertySource_ImportResource_Bean)/src/test/resources
+2020-07-13 20:31:41,729 [Worker-299: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-07-13 20:31:41,729 [Worker-299: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-07-13 20:31:41,729 [Worker-299: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-07-13 20:31:41,730 [Worker-299: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-07-13 20:31:41,730 [Worker-299: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/liuyimin/Documents/02_个人篇/201_学习/SpringBootStudyReporsity/workspace-sts/spring-boot-liu-02-config(PropertySource_ImportResource_Bean)/src/test/resources
+2020-07-13 20:31:42,910 [Worker-314: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-07-13 20:31:42,910 [Worker-314: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-07-13 20:31:42,910 [Worker-314: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-07-13 20:31:42,912 [Worker-314: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-07-13 20:31:42,912 [Worker-314: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/liuyimin/Documents/02_个人篇/201_学习/SpringBootStudyReporsity/workspace-sts/spring-boot-liu-02-config(PropertySource_ImportResource_Bean)/src/test/resources
+2020-07-13 20:32:06,934 [Worker-316: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-07-13 20:32:06,934 [Worker-316: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-07-13 20:32:06,934 [Worker-316: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-07-13 20:32:06,935 [Worker-316: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-07-13 20:32:06,935 [Worker-316: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/liuyimin/Documents/02_个人篇/201_学习/SpringBootStudyReporsity/workspace-sts/spring-boot-liu-02-config(PropertySource_ImportResource_Bean)/src/test/resources
+2020-07-13 20:34:46,128 [Worker-314: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-07-13 20:34:46,128 [Worker-314: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-07-13 20:34:46,129 [Worker-314: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-07-13 20:34:46,130 [Worker-314: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-07-13 20:34:46,130 [Worker-314: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/liuyimin/Documents/02_个人篇/201_学习/SpringBootStudyReporsity/workspace-sts/spring-boot-liu-02-config(PropertySource_ImportResource_Bean)/src/test/resources
+2020-07-13 20:34:48,193 [Worker-317: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-07-13 20:34:48,194 [Worker-317: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-07-13 20:34:48,194 [Worker-317: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-07-13 20:34:48,195 [Worker-317: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-07-13 20:34:48,195 [Worker-317: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/liuyimin/Documents/02_个人篇/201_学习/SpringBootStudyReporsity/workspace-sts/spring-boot-liu-02-config(PropertySource_ImportResource_Bean)/src/test/resources
+2020-07-13 20:37:35,634 [Worker-317: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-07-13 20:37:35,635 [Worker-317: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-07-13 20:37:35,636 [Worker-317: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-07-13 20:37:35,637 [Worker-317: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-07-13 20:37:35,637 [Worker-317: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/liuyimin/Documents/02_个人篇/201_学习/SpringBootStudyReporsity/workspace-sts/spring-boot-liu-02-config(PropertySource_ImportResource_Bean)/src/test/resources
+2020-07-13 20:38:52,698 [Worker-319: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-07-13 20:38:52,698 [Worker-319: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-07-13 20:38:52,699 [Worker-319: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-07-13 20:38:52,700 [Worker-319: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-07-13 20:38:52,700 [Worker-319: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/liuyimin/Documents/02_个人篇/201_学习/SpringBootStudyReporsity/workspace-sts/spring-boot-liu-02-config(PropertySource_ImportResource_Bean)/src/test/resources
+2020-07-13 20:58:00,438 [Worker-352: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-07-13 20:58:00,438 [Worker-352: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-07-13 20:58:00,438 [Worker-352: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-07-13 20:58:00,439 [Worker-352: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-07-13 20:58:00,439 [Worker-352: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/liuyimin/Documents/02_个人篇/201_学习/SpringBootStudyReporsity/workspace-sts/spring-boot-liu-02-config(PropertySource_ImportResource_Bean)/src/test/resources
+2020-07-13 20:58:59,139 [Worker-351: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-07-13 20:58:59,139 [Worker-351: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-07-13 20:58:59,139 [Worker-351: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-07-13 20:58:59,140 [Worker-351: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-07-13 20:58:59,140 [Worker-351: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/liuyimin/Documents/02_个人篇/201_学习/SpringBootStudyReporsity/workspace-sts/spring-boot-liu-02-config(PropertySource_ImportResource_Bean)/src/test/resources
+2020-07-13 20:59:09,252 [Worker-352: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-07-13 20:59:09,253 [Worker-352: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-07-13 20:59:09,253 [Worker-352: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-07-13 20:59:09,254 [Worker-352: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-07-13 20:59:09,255 [Worker-352: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/liuyimin/Documents/02_个人篇/201_学习/SpringBootStudyReporsity/workspace-sts/spring-boot-liu-02-config(PropertySource_ImportResource_Bean)/src/test/resources
+2020-07-13 20:59:28,387 [Worker-353: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-07-13 20:59:28,387 [Worker-353: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-07-13 20:59:28,387 [Worker-353: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-07-13 20:59:28,388 [Worker-353: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-07-13 20:59:28,388 [Worker-353: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/liuyimin/Documents/02_个人篇/201_学习/SpringBootStudyReporsity/workspace-sts/spring-boot-liu-02-config(PropertySource_ImportResource_Bean)/src/test/resources
+2020-07-13 21:00:50,174 [Worker-351: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-07-13 21:00:50,174 [Worker-351: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-07-13 21:00:50,174 [Worker-351: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-07-13 21:00:50,175 [Worker-351: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-07-13 21:00:50,175 [Worker-351: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/liuyimin/Documents/02_个人篇/201_学习/SpringBootStudyReporsity/workspace-sts/spring-boot-liu-02-config(PropertySource_ImportResource_Bean)/src/test/resources
+2020-07-13 21:01:56,037 [Worker-361: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-07-13 21:01:56,037 [Worker-361: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-07-13 21:01:56,038 [Worker-361: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-07-13 21:01:56,038 [Worker-361: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-07-13 21:01:56,038 [Worker-361: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/liuyimin/Documents/02_个人篇/201_学习/SpringBootStudyReporsity/workspace-sts/spring-boot-liu-02-config(PropertySource_ImportResource_Bean)/src/test/resources
+2020-07-13 21:02:15,751 [Worker-353: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-07-13 21:02:15,751 [Worker-353: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-07-13 21:02:15,751 [Worker-353: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-07-13 21:02:15,752 [Worker-353: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-07-13 21:02:15,752 [Worker-353: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/liuyimin/Documents/02_个人篇/201_学习/SpringBootStudyReporsity/workspace-sts/spring-boot-liu-02-config(PropertySource_ImportResource_Bean)/src/test/resources
+2020-07-13 21:06:14,191 [Worker-352: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-07-13 21:06:14,191 [Worker-352: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-07-13 21:06:14,192 [Worker-352: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-07-13 21:06:14,195 [Worker-352: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-07-13 21:06:14,195 [Worker-352: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/liuyimin/Documents/02_个人篇/201_学习/SpringBootStudyReporsity/workspace-sts/spring-boot-liu-02-config(PropertySource_ImportResource_Bean)/src/test/resources
+2020-07-13 21:10:43,242 [Worker-367: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-07-13 21:10:43,242 [Worker-367: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-07-13 21:10:43,243 [Worker-367: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-07-13 21:10:43,244 [Worker-367: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-07-13 21:10:43,244 [Worker-367: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/liuyimin/Documents/02_个人篇/201_学习/SpringBootStudyReporsity/workspace-sts/spring-boot-liu-02-config(PropertySource_ImportResource_Bean)/src/test/resources
+2020-07-13 21:10:57,061 [Worker-367: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-07-13 21:10:57,061 [Worker-367: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-07-13 21:10:57,061 [Worker-367: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-07-13 21:10:57,062 [Worker-367: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-07-13 21:10:57,062 [Worker-367: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/liuyimin/Documents/02_个人篇/201_学习/SpringBootStudyReporsity/workspace-sts/spring-boot-liu-02-config(PropertySource_ImportResource_Bean)/src/test/resources
+2020-07-13 21:12:17,522 [Worker-369: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-07-13 21:12:17,522 [Worker-369: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-07-13 21:12:17,523 [Worker-369: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-07-13 21:12:17,524 [Worker-369: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-07-13 21:12:17,524 [Worker-369: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/liuyimin/Documents/02_个人篇/201_学习/SpringBootStudyReporsity/workspace-sts/spring-boot-liu-02-config(PropertySource_ImportResource_Bean)/src/test/resources
+2020-07-13 21:15:23,237 [Worker-372: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-07-13 21:15:23,238 [Worker-372: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-07-13 21:15:23,238 [Worker-372: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-07-13 21:15:23,239 [Worker-372: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-07-13 21:15:23,239 [Worker-372: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/liuyimin/Documents/02_个人篇/201_学习/SpringBootStudyReporsity/workspace-sts/spring-boot-liu-02-config(PropertySource_ImportResource_Bean)/src/test/resources
+2020-07-13 21:16:24,631 [Worker-373: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-07-13 21:16:24,631 [Worker-373: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-07-13 21:16:24,632 [Worker-373: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-07-13 21:16:24,633 [Worker-373: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-07-13 21:16:24,633 [Worker-373: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/liuyimin/Documents/02_个人篇/201_学习/SpringBootStudyReporsity/workspace-sts/spring-boot-liu-02-config(PropertySource_ImportResource_Bean)/src/test/resources
+2020-07-13 21:19:49,037 [Worker-374: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-07-13 21:19:49,037 [Worker-374: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-07-13 21:19:49,038 [Worker-374: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-07-13 21:19:49,039 [Worker-374: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-07-13 21:19:49,039 [Worker-374: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/liuyimin/Documents/02_个人篇/201_学习/SpringBootStudyReporsity/workspace-sts/spring-boot-liu-02-config(PropertySource_ImportResource_Bean)/src/test/resources
+2020-07-13 21:21:13,058 [Worker-368: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-07-13 21:21:13,058 [Worker-368: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-07-13 21:21:13,059 [Worker-368: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-07-13 21:21:13,060 [Worker-368: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-07-13 21:21:13,060 [Worker-368: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/liuyimin/Documents/02_个人篇/201_学习/SpringBootStudyReporsity/workspace-sts/spring-boot-liu-02-config(PropertySource_ImportResource_Bean)/src/test/resources
+2020-07-13 21:22:08,929 [Worker-374: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-07-13 21:22:08,930 [Worker-374: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-07-13 21:22:08,931 [Worker-374: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-07-13 21:22:08,933 [Worker-374: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-07-13 21:22:08,933 [Worker-374: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/liuyimin/Documents/02_个人篇/201_学习/SpringBootStudyReporsity/workspace-sts/spring-boot-liu-02-config(PropertySource_ImportResource_Bean)/src/test/resources
+2020-07-13 21:28:45,665 [Worker-375: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-07-13 21:28:45,665 [Worker-375: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-07-13 21:28:45,666 [Worker-375: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-07-13 21:28:45,667 [Worker-375: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-07-13 21:28:45,667 [Worker-375: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/liuyimin/Documents/02_个人篇/201_学习/SpringBootStudyReporsity/workspace-sts/spring-boot-liu-02-config(PropertySource_ImportResource_Bean)/src/test/resources
+2020-07-13 21:31:58,648 [Worker-374: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-07-13 21:31:58,648 [Worker-374: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-07-13 21:31:58,648 [Worker-374: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-07-13 21:31:58,650 [Worker-374: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-07-13 21:31:58,650 [Worker-374: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/liuyimin/Documents/02_个人篇/201_学习/SpringBootStudyReporsity/workspace-sts/spring-boot-liu-02-config(PropertySource_ImportResource_Bean)/src/test/resources
+2020-07-13 21:32:14,602 [Worker-377: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-07-13 21:32:14,602 [Worker-377: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-07-13 21:32:14,603 [Worker-377: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-07-13 21:32:14,604 [Worker-377: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-07-13 21:32:14,604 [Worker-377: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/liuyimin/Documents/02_个人篇/201_学习/SpringBootStudyReporsity/workspace-sts/spring-boot-liu-02-config(PropertySource_ImportResource_Bean)/src/test/resources
+2020-07-13 21:36:51,252 [Worker-382: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-07-13 21:36:51,253 [Worker-382: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-07-13 21:36:51,254 [Worker-382: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-07-13 21:36:51,254 [Worker-382: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-07-13 21:36:51,254 [Worker-382: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/liuyimin/Documents/02_个人篇/201_学习/SpringBootStudyReporsity/workspace-sts/spring-boot-liu-02-config(PropertySource_ImportResource_Bean)/src/test/resources
+2020-07-13 21:37:58,199 [Worker-381: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-07-13 21:37:58,199 [Worker-381: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-07-13 21:37:58,200 [Worker-381: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-07-13 21:37:58,201 [Worker-381: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-07-13 21:37:58,201 [Worker-381: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/liuyimin/Documents/02_个人篇/201_学习/SpringBootStudyReporsity/workspace-sts/spring-boot-liu-02-config(PropertySource_ImportResource_Bean)/src/test/resources
+2020-07-13 21:42:47,577 [Worker-382: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-07-13 21:42:47,577 [Worker-382: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-07-13 21:42:47,578 [Worker-382: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-07-13 21:42:47,579 [Worker-382: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-07-13 21:42:47,579 [Worker-382: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/liuyimin/Documents/02_个人篇/201_学习/SpringBootStudyReporsity/workspace-sts/spring-boot-liu-02-config(PropertySource_ImportResource_Bean)/src/test/resources
+2020-07-13 21:45:11,896 [Worker-384: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-07-13 21:45:11,897 [Worker-384: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-07-13 21:45:11,897 [Worker-384: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-07-13 21:45:11,898 [Worker-384: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-07-13 21:45:11,898 [Worker-384: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/liuyimin/Documents/02_个人篇/201_学习/SpringBootStudyReporsity/workspace-sts/spring-boot-liu-02-config(PropertySource_ImportResource_Bean)/src/test/resources
+2020-07-13 21:46:45,316 [Worker-383: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-07-13 21:46:45,317 [Worker-383: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-07-13 21:46:45,317 [Worker-383: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-07-13 21:46:45,318 [Worker-383: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-07-13 21:46:45,318 [Worker-383: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/liuyimin/Documents/02_个人篇/201_学习/SpringBootStudyReporsity/workspace-sts/spring-boot-liu-02-config(PropertySource_ImportResource_Bean)/src/test/resources
+2020-07-13 21:48:14,640 [Worker-382: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-07-13 21:48:14,640 [Worker-382: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-07-13 21:48:14,641 [Worker-382: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-07-13 21:48:14,642 [Worker-382: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-07-13 21:48:14,642 [Worker-382: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/liuyimin/Documents/02_个人篇/201_学习/SpringBootStudyReporsity/workspace-sts/spring-boot-liu-02-config(PropertySource_ImportResource_Bean)/src/test/resources
+2020-07-13 21:49:10,407 [Worker-382: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-07-13 21:49:10,407 [Worker-382: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-07-13 21:49:10,408 [Worker-382: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-07-13 21:49:10,408 [Worker-382: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-07-13 21:49:10,408 [Worker-382: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/liuyimin/Documents/02_个人篇/201_学习/SpringBootStudyReporsity/workspace-sts/spring-boot-liu-02-config(PropertySource_ImportResource_Bean)/src/test/resources
+2020-07-13 21:53:03,719 [Worker-389: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-07-13 21:53:03,719 [Worker-389: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-07-13 21:53:03,720 [Worker-389: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-07-13 21:53:03,721 [Worker-389: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-07-13 21:53:03,721 [Worker-389: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/liuyimin/Documents/02_个人篇/201_学习/SpringBootStudyReporsity/workspace-sts/spring-boot-liu-02-config(PropertySource_ImportResource_Bean)/src/test/resources
+2020-07-13 22:08:10,234 [Worker-389: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-07-13 22:08:10,235 [Worker-389: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-07-13 22:08:10,236 [Worker-389: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-07-13 22:08:10,237 [Worker-389: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-07-13 22:08:10,237 [Worker-389: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/liuyimin/Documents/02_个人篇/201_学习/SpringBootStudyReporsity/workspace-sts/spring-boot-liu-02-config(PropertySource_ImportResource_Bean)/src/test/resources
+2020-07-13 22:09:51,519 [Worker-390: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-07-13 22:09:51,520 [Worker-390: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-07-13 22:09:51,520 [Worker-390: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-07-13 22:09:51,521 [Worker-390: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-07-13 22:09:51,521 [Worker-390: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/liuyimin/Documents/02_个人篇/201_学习/SpringBootStudyReporsity/workspace-sts/spring-boot-liu-02-config(PropertySource_ImportResource_Bean)/src/test/resources
+2020-07-13 22:10:23,567 [Worker-390: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-07-13 22:10:23,567 [Worker-390: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-07-13 22:10:23,568 [Worker-390: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-07-13 22:10:23,569 [Worker-390: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-07-13 22:10:23,569 [Worker-390: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/liuyimin/Documents/02_个人篇/201_学习/SpringBootStudyReporsity/workspace-sts/spring-boot-liu-02-config(PropertySource_ImportResource_Bean)/src/test/resources
+2020-07-13 22:15:46,455 [Worker-394: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-07-13 22:15:46,455 [Worker-394: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-07-13 22:15:46,456 [Worker-394: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-07-13 22:15:46,457 [Worker-394: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-07-13 22:15:46,457 [Worker-394: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/liuyimin/Documents/02_个人篇/201_学习/SpringBootStudyReporsity/workspace-sts/spring-boot-liu-02-config(PropertySource_ImportResource_Bean)/src/test/resources
+2020-07-13 22:23:20,340 [Worker-397: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-07-13 22:23:20,341 [Worker-397: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-07-13 22:23:20,341 [Worker-397: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-07-13 22:23:20,342 [Worker-397: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-07-13 22:23:20,342 [Worker-397: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/liuyimin/Documents/02_个人篇/201_学习/SpringBootStudyReporsity/workspace-sts/spring-boot-liu-02-config(PropertySource_ImportResource_Bean)/src/test/resources
+2020-07-13 22:26:40,003 [Worker-400: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-07-13 22:26:40,003 [Worker-400: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-07-13 22:26:40,004 [Worker-400: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-07-13 22:26:40,005 [Worker-400: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-07-13 22:26:40,005 [Worker-400: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/liuyimin/Documents/02_个人篇/201_学习/SpringBootStudyReporsity/workspace-sts/spring-boot-liu-02-config(PropertySource_ImportResource_Bean)/src/test/resources
+2020-07-13 22:27:13,811 [Worker-399: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-07-13 22:27:13,811 [Worker-399: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-07-13 22:27:13,812 [Worker-399: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-07-13 22:27:13,813 [Worker-399: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-07-13 22:27:13,813 [Worker-399: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/liuyimin/Documents/02_个人篇/201_学习/SpringBootStudyReporsity/workspace-sts/spring-boot-liu-02-config(PropertySource_ImportResource_Bean)/src/test/resources
+2020-07-13 22:27:29,813 [Worker-394: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-07-13 22:27:29,814 [Worker-394: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-07-13 22:27:29,814 [Worker-394: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-07-13 22:27:29,815 [Worker-394: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-07-13 22:27:29,815 [Worker-394: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/liuyimin/Documents/02_个人篇/201_学习/SpringBootStudyReporsity/workspace-sts/spring-boot-liu-02-config(PropertySource_ImportResource_Bean)/src/test/resources
+2020-07-13 22:30:47,477 [Worker-394: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-07-13 22:30:47,477 [Worker-394: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-07-13 22:30:47,477 [Worker-394: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-07-13 22:30:47,478 [Worker-394: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-07-13 22:30:47,478 [Worker-394: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/liuyimin/Documents/02_个人篇/201_学习/SpringBootStudyReporsity/workspace-sts/spring-boot-liu-02-config(PropertySource_ImportResource_Bean)/src/test/resources
+2020-07-13 22:30:56,089 [Worker-400: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-07-13 22:30:56,089 [Worker-400: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-07-13 22:30:56,089 [Worker-400: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-07-13 22:30:56,090 [Worker-400: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-07-13 22:30:56,090 [Worker-400: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/liuyimin/Documents/02_个人篇/201_学习/SpringBootStudyReporsity/workspace-sts/spring-boot-liu-02-config(PropertySource_ImportResource_Bean)/src/test/resources
+2020-07-13 22:33:20,447 [Worker-398: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-07-13 22:33:20,447 [Worker-398: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-07-13 22:33:20,448 [Worker-398: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-07-13 22:33:20,449 [Worker-398: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-07-13 22:33:20,449 [Worker-398: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/liuyimin/Documents/02_个人篇/201_学习/SpringBootStudyReporsity/workspace-sts/spring-boot-liu-02-config(PropertySource_ImportResource_Bean)/src/test/resources
+2020-07-13 23:47:41,508 [Worker-406: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-07-13 23:47:41,509 [Worker-406: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-07-13 23:47:41,509 [Worker-406: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-07-13 23:47:41,510 [Worker-406: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-07-13 23:47:41,510 [Worker-406: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/liuyimin/Documents/02_个人篇/201_学习/SpringBootStudyReporsity/workspace-sts/spring-boot-liu-02-config(PropertySource_ImportResource_Bean)/src/test/resources
+2020-07-14 11:11:05,911 [Worker-2: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2020-07-14 12:30:15,434 [Worker-8: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2020-07-14 12:32:30,773 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-07-14 12:32:30,778 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-07-14 12:32:30,792 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-07-14 12:32:30,795 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-07-14 12:32:30,795 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/liuyimin/Documents/02_个人篇/201_学习/SpringBootStudyReporsity/workspace-sts/demo/src/test/resources
+2020-07-14 12:32:31,703 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-07-14 12:32:31,703 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-07-14 12:32:31,705 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-07-14 12:32:31,713 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-07-14 12:32:31,713 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/liuyimin/Documents/02_个人篇/201_学习/SpringBootStudyReporsity/workspace-sts/rest-api-sample/src/test/resources
+2020-07-14 12:32:32,190 [Worker-17: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-07-14 12:32:32,190 [Worker-17: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-07-14 12:32:32,191 [Worker-17: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-07-14 12:32:32,193 [Worker-17: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-07-14 12:32:32,194 [Worker-17: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/liuyimin/Documents/02_个人篇/201_学习/SpringBootStudyReporsity/workspace-sts/spring-boot-liu-01-helloworld/src/test/resources
+2020-07-14 12:32:32,536 [Worker-17: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-07-14 12:32:32,537 [Worker-17: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-07-14 12:32:32,539 [Worker-17: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-07-14 12:32:32,542 [Worker-17: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-07-14 12:32:32,542 [Worker-17: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/liuyimin/Documents/02_个人篇/201_学习/SpringBootStudyReporsity/workspace-sts/spring-boot-liu-02-config(ConfigrationProperties_and_Value)/src/test/resources
+2020-07-14 12:32:32,900 [Worker-17: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-07-14 12:32:32,900 [Worker-17: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-07-14 12:32:32,901 [Worker-17: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-07-14 12:32:32,907 [Worker-17: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-07-14 12:32:32,907 [Worker-17: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/liuyimin/Documents/02_个人篇/201_学习/SpringBootStudyReporsity/workspace-sts/spring-boot-liu-02-config(PropertySource_ImportResource_Bean)/src/test/resources
+2020-07-14 12:32:33,253 [Worker-17: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-07-14 12:32:33,253 [Worker-17: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-07-14 12:32:33,255 [Worker-17: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-07-14 12:32:33,258 [Worker-17: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-07-14 12:32:33,258 [Worker-17: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/liuyimin/Documents/02_个人篇/201_学习/SpringBootStudyReporsity/workspace-sts/springboot_mybatis/src/test/resources
+2020-07-14 12:32:33,909 [Worker-4: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-07-14 12:32:33,909 [Worker-4: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-07-14 12:32:33,911 [Worker-4: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-07-14 12:32:33,912 [Worker-4: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-07-14 12:32:33,912 [Worker-4: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/liuyimin/Documents/02_个人篇/201_学习/SpringBootStudyReporsity/workspace-sts/springboot_quick_in/src/test/resources
+2020-07-14 12:50:00,527 [Worker-21: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-07-14 12:50:00,533 [Worker-21: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-07-14 12:50:00,534 [Worker-21: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-07-14 12:50:00,536 [Worker-21: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-07-14 12:50:00,536 [Worker-21: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/liuyimin/Documents/02_个人篇/201_学习/SpringBootStudyReporsity/workspace-sts/spring-boot-liu-02-config(PropertySource_ImportResource_Bean)/src/test/resources
+2020-07-14 12:50:45,067 [Worker-44: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-07-14 12:50:45,068 [Worker-44: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-07-14 12:50:45,069 [Worker-44: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-07-14 12:50:45,070 [Worker-44: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-07-14 12:50:45,070 [Worker-44: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/liuyimin/Documents/02_个人篇/201_学习/SpringBootStudyReporsity/workspace-sts/spring-boot-liu-02-config(PropertySource_ImportResource_Bean)/src/test/resources
+2020-07-14 12:50:51,825 [Worker-21: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-07-14 12:50:51,826 [Worker-21: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-07-14 12:50:51,827 [Worker-21: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-07-14 12:50:51,829 [Worker-21: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-07-14 12:50:51,829 [Worker-21: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/liuyimin/Documents/02_个人篇/201_学习/SpringBootStudyReporsity/workspace-sts/spring-boot-liu-02-config(PropertySource_ImportResource_Bean)/src/test/resources
+2020-07-14 12:50:51,835 [Worker-21: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-07-14 12:50:51,835 [Worker-21: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-07-14 12:50:51,836 [Worker-21: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-07-14 12:50:51,838 [Worker-21: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-07-14 12:50:51,838 [Worker-21: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/liuyimin/Documents/02_个人篇/201_学习/SpringBootStudyReporsity/workspace-sts/springboot_mybatis/src/test/resources
+2020-07-14 12:56:18,525 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-07-14 12:56:18,525 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-07-14 12:56:18,526 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-07-14 12:56:18,527 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-07-14 12:56:18,527 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/liuyimin/Documents/02_个人篇/201_学习/SpringBootStudyReporsity/workspace-sts/spring-boot-liu-02-config(ConfigrationProperties_and_Value)/src/test/resources
+2020-07-14 13:01:16,854 [Worker-44: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-07-14 13:01:16,854 [Worker-44: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-07-14 13:01:16,855 [Worker-44: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-07-14 13:01:16,857 [Worker-44: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-07-14 13:01:16,857 [Worker-44: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/liuyimin/Documents/02_个人篇/201_学习/SpringBootStudyReporsity/workspace-sts/spring-boot-liu-02-config(PropertySource_ImportResource_Bean)/src/test/resources
+2020-07-14 13:03:35,681 [Worker-44: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-07-14 13:03:35,681 [Worker-44: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-07-14 13:03:35,681 [Worker-44: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-07-14 13:03:35,683 [Worker-44: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-07-14 13:03:35,683 [Worker-44: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/liuyimin/Documents/02_个人篇/201_学习/SpringBootStudyReporsity/workspace-sts/spring-boot-liu-02-config(PropertySource_ImportResource_Bean)/src/test/resources
+2020-07-14 13:04:04,575 [Worker-50: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-07-14 13:04:04,575 [Worker-50: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-07-14 13:04:04,576 [Worker-50: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-07-14 13:04:04,578 [Worker-50: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-07-14 13:04:04,578 [Worker-50: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/liuyimin/Documents/02_个人篇/201_学习/SpringBootStudyReporsity/workspace-sts/spring-boot-liu-02-config(PropertySource_ImportResource_Bean)/src/test/resources
+2020-07-14 13:04:41,580 [Worker-48: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-07-14 13:04:41,580 [Worker-48: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-07-14 13:04:41,581 [Worker-48: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-07-14 13:04:41,582 [Worker-48: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-07-14 13:04:41,582 [Worker-48: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/liuyimin/Documents/02_个人篇/201_学习/SpringBootStudyReporsity/workspace-sts/spring-boot-liu-02-config(PropertySource_ImportResource_Bean)/src/test/resources
+2020-07-14 13:06:21,216 [Worker-47: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-07-14 13:06:21,217 [Worker-47: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-07-14 13:06:21,217 [Worker-47: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-07-14 13:06:21,218 [Worker-47: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-07-14 13:06:21,218 [Worker-47: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/liuyimin/Documents/02_个人篇/201_学习/SpringBootStudyReporsity/workspace-sts/spring-boot-liu-02-config(PropertySource_ImportResource_Bean)/src/test/resources
+2020-07-14 13:08:04,078 [Worker-54: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-07-14 13:08:04,079 [Worker-54: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-07-14 13:08:04,079 [Worker-54: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-07-14 13:08:04,080 [Worker-54: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-07-14 13:08:04,081 [Worker-54: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/liuyimin/Documents/02_个人篇/201_学习/SpringBootStudyReporsity/workspace-sts/spring-boot-liu-02-config(PropertySource_ImportResource_Bean)/src/test/resources
+2020-07-14 13:11:01,468 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-07-14 13:11:01,468 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-07-14 13:11:01,468 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-07-14 13:11:01,470 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-07-14 13:11:01,470 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/liuyimin/Documents/02_个人篇/201_学习/SpringBootStudyReporsity/workspace-sts/spring-boot-liu-02-config(PropertySource_ImportResource_Bean)/src/test/resources
+2020-07-14 13:11:45,525 [Worker-52: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-07-14 13:11:45,526 [Worker-52: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-07-14 13:11:45,526 [Worker-52: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-07-14 13:11:45,527 [Worker-52: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-07-14 13:11:45,527 [Worker-52: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/liuyimin/Documents/02_个人篇/201_学习/SpringBootStudyReporsity/workspace-sts/spring-boot-liu-02-config(PropertySource_ImportResource_Bean)/src/test/resources
+2020-07-14 13:12:22,214 [Worker-52: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-07-14 13:12:22,215 [Worker-52: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-07-14 13:12:22,215 [Worker-52: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-07-14 13:12:22,217 [Worker-52: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-07-14 13:12:22,217 [Worker-52: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/liuyimin/Documents/02_个人篇/201_学习/SpringBootStudyReporsity/workspace-sts/spring-boot-liu-02-config(PropertySource_ImportResource_Bean)/src/test/resources
+2020-07-14 14:01:45,013 [Worker-60: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-07-14 14:01:45,013 [Worker-60: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-07-14 14:01:45,014 [Worker-60: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-07-14 14:01:45,015 [Worker-60: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-07-14 14:01:45,015 [Worker-60: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/liuyimin/Documents/02_个人篇/201_学习/SpringBootStudyReporsity/workspace-sts/spring-boot-liu-02-config(PropertySource_ImportResource_Bean)/src/test/resources
+2020-07-14 14:04:23,649 [Worker-66: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-07-14 14:04:23,649 [Worker-66: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-07-14 14:04:23,650 [Worker-66: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-07-14 14:04:23,652 [Worker-66: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-07-14 14:04:23,652 [Worker-66: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/liuyimin/Documents/02_个人篇/201_学习/SpringBootStudyReporsity/workspace-sts/spring-boot-liu-02-config(PropertySource_ImportResource_Bean)/src/test/resources
+2020-07-14 14:05:03,954 [Worker-61: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-07-14 14:05:03,954 [Worker-61: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-07-14 14:05:03,954 [Worker-61: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-07-14 14:05:03,957 [Worker-61: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-07-14 14:05:03,957 [Worker-61: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/liuyimin/Documents/02_个人篇/201_学习/SpringBootStudyReporsity/workspace-sts/spring-boot-liu-02-config(PropertySource_ImportResource_Bean)/src/test/resources
+2020-07-14 14:06:48,643 [Worker-69: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-07-14 14:06:48,643 [Worker-69: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-07-14 14:06:48,643 [Worker-69: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-07-14 14:06:48,645 [Worker-69: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-07-14 14:06:48,645 [Worker-69: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/liuyimin/Documents/02_个人篇/201_学习/SpringBootStudyReporsity/workspace-sts/spring-boot-liu-02-config(PropertySource_ImportResource_Bean)/src/test/resources
+2020-07-14 14:53:33,917 [Worker-75: Import Getting Started Content] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.example:spring-boot-liu-03-profiles-for-mutibale-envirment:0.0.1-SNAPSHOT @ /Users/liuyimin/Documents/02_个人篇/201_学习/SpringBootStudyReporsity/workspace-sts/spring-boot-liu-03-profiles-for-mutibale-envirment/pom.xml.
+2020-07-14 14:53:34,076 [Worker-75: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /spring-boot-liu-03-profiles-for-mutibale-envirment/src/main/java
+2020-07-14 14:53:34,078 [Worker-75: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /spring-boot-liu-03-profiles-for-mutibale-envirment/src/main/resources
+2020-07-14 14:53:34,080 [Worker-75: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /spring-boot-liu-03-profiles-for-mutibale-envirment/src/main/resources
+2020-07-14 14:53:34,081 [Worker-75: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /spring-boot-liu-03-profiles-for-mutibale-envirment/src/test/java
+2020-07-14 14:53:34,153 [Worker-75: Import Getting Started Content] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 0 sec
+2020-07-14 14:53:34,157 [Worker-75: Import Getting Started Content] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2020-07-14 14:53:34,398 [Worker-75: Import Getting Started Content] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.example:spring-boot-liu-03-profiles-for-mutibale-envirment:0.0.1-SNAPSHOT @ /Users/liuyimin/Documents/02_个人篇/201_学习/SpringBootStudyReporsity/workspace-sts/spring-boot-liu-03-profiles-for-mutibale-envirment/pom.xml.
+2020-07-14 14:53:34,528 [Worker-75: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /spring-boot-liu-03-profiles-for-mutibale-envirment/src/main/java
+2020-07-14 14:53:34,529 [Worker-75: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /spring-boot-liu-03-profiles-for-mutibale-envirment/src/main/resources
+2020-07-14 14:53:34,529 [Worker-75: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /spring-boot-liu-03-profiles-for-mutibale-envirment/src/main/resources
+2020-07-14 14:53:34,529 [Worker-75: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /spring-boot-liu-03-profiles-for-mutibale-envirment/src/test/java
+2020-07-14 14:53:34,637 [Worker-75: Import Getting Started Content] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 0 sec
+2020-07-14 14:53:34,957 [Worker-81: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-07-14 14:53:34,957 [Worker-81: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-07-14 14:53:34,958 [Worker-81: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-07-14 14:53:34,959 [Worker-81: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-07-14 14:53:34,959 [Worker-81: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/liuyimin/Documents/02_个人篇/201_学习/SpringBootStudyReporsity/workspace-sts/spring-boot-liu-03-profiles-for-mutibale-envirment/src/test/resources
+2020-07-14 15:00:20,822 [Worker-84: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-07-14 15:00:20,822 [Worker-84: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-07-14 15:00:20,822 [Worker-84: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-07-14 15:00:20,823 [Worker-84: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-07-14 15:00:20,823 [Worker-84: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/liuyimin/Documents/02_个人篇/201_学习/SpringBootStudyReporsity/workspace-sts/spring-boot-liu-03-profiles-for-mutibale-envirment/src/test/resources
+2020-07-14 15:07:03,657 [Worker-81: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-07-14 15:07:03,657 [Worker-81: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-07-14 15:07:03,657 [Worker-81: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-07-14 15:07:03,658 [Worker-81: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-07-14 15:07:03,658 [Worker-81: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/liuyimin/Documents/02_个人篇/201_学习/SpringBootStudyReporsity/workspace-sts/spring-boot-liu-03-profiles-for-mutibale-envirment/src/test/resources
+2020-07-14 15:11:22,952 [Worker-81: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-07-14 15:11:22,953 [Worker-81: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-07-14 15:11:22,953 [Worker-81: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-07-14 15:11:22,955 [Worker-81: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-07-14 15:11:22,955 [Worker-81: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/liuyimin/Documents/02_个人篇/201_学习/SpringBootStudyReporsity/workspace-sts/spring-boot-liu-03-profiles-for-mutibale-envirment/src/test/resources
+2020-07-14 15:12:23,955 [Worker-88: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-07-14 15:12:23,955 [Worker-88: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-07-14 15:12:23,955 [Worker-88: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-07-14 15:12:23,956 [Worker-88: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-07-14 15:12:23,956 [Worker-88: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/liuyimin/Documents/02_个人篇/201_学习/SpringBootStudyReporsity/workspace-sts/spring-boot-liu-03-profiles-for-mutibale-envirment/src/test/resources
+2020-07-14 15:13:22,186 [Worker-88: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-07-14 15:13:22,186 [Worker-88: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-07-14 15:13:22,186 [Worker-88: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-07-14 15:13:22,187 [Worker-88: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-07-14 15:13:22,187 [Worker-88: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/liuyimin/Documents/02_个人篇/201_学习/SpringBootStudyReporsity/workspace-sts/spring-boot-liu-03-profiles-for-mutibale-envirment/src/test/resources
+2020-07-14 15:13:40,115 [Worker-86: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-07-14 15:13:40,115 [Worker-86: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-07-14 15:13:40,115 [Worker-86: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-07-14 15:13:40,117 [Worker-86: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-07-14 15:13:40,117 [Worker-86: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/liuyimin/Documents/02_个人篇/201_学习/SpringBootStudyReporsity/workspace-sts/spring-boot-liu-03-profiles-for-mutibale-envirment/src/test/resources
+2020-07-14 15:13:59,959 [Worker-85: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-07-14 15:13:59,959 [Worker-85: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-07-14 15:13:59,960 [Worker-85: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-07-14 15:13:59,961 [Worker-85: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-07-14 15:13:59,961 [Worker-85: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/liuyimin/Documents/02_个人篇/201_学习/SpringBootStudyReporsity/workspace-sts/spring-boot-liu-03-profiles-for-mutibale-envirment/src/test/resources
+2020-07-14 15:25:03,160 [Worker-90: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-07-14 15:25:03,161 [Worker-90: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-07-14 15:25:03,162 [Worker-90: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-07-14 15:25:03,163 [Worker-90: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-07-14 15:25:03,163 [Worker-90: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/liuyimin/Documents/02_个人篇/201_学习/SpringBootStudyReporsity/workspace-sts/spring-boot-liu-03-profiles-for-mutibale-envirment/src/test/resources
+2020-07-14 15:25:28,470 [Worker-91: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-07-14 15:25:28,470 [Worker-91: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2020-07-14 15:25:28,471 [Worker-91: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-07-14 15:25:28,472 [Worker-91: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-07-14 15:25:28,472 [Worker-91: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/liuyimin/Documents/02_个人篇/201_学习/SpringBootStudyReporsity/workspace-sts/spring-boot-liu-03-profiles-for-mutibale-envirment/src/test/resources
+2020-07-14 15:42:47,307 [Worker-93: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-07-14 15:42:47,308 [Worker-93: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-07-14 15:42:47,308 [Worker-93: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-07-14 15:42:47,309 [Worker-93: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-07-14 15:42:47,309 [Worker-93: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/liuyimin/Documents/02_个人篇/201_学习/SpringBootStudyReporsity/workspace-sts/spring-boot-liu-03-profiles-for-mutibale-envirment/src/test/resources
+2020-07-14 15:45:03,468 [Worker-96: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-07-14 15:45:03,468 [Worker-96: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-07-14 15:45:03,469 [Worker-96: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-07-14 15:45:03,470 [Worker-96: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-07-14 15:45:03,470 [Worker-96: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/liuyimin/Documents/02_个人篇/201_学习/SpringBootStudyReporsity/workspace-sts/spring-boot-liu-03-profiles-for-mutibale-envirment/src/test/resources
+2020-07-14 15:45:55,510 [Worker-92: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-07-14 15:45:55,510 [Worker-92: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-07-14 15:45:55,511 [Worker-92: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-07-14 15:45:55,512 [Worker-92: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-07-14 15:45:55,512 [Worker-92: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/liuyimin/Documents/02_个人篇/201_学习/SpringBootStudyReporsity/workspace-sts/spring-boot-liu-03-profiles-for-mutibale-envirment/src/test/resources
+2020-07-14 15:48:22,626 [Worker-94: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-07-14 15:48:22,626 [Worker-94: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2020-07-14 15:48:22,628 [Worker-94: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-07-14 15:48:22,629 [Worker-94: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-07-14 15:48:22,629 [Worker-94: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/liuyimin/Documents/02_个人篇/201_学习/SpringBootStudyReporsity/workspace-sts/spring-boot-liu-03-profiles-for-mutibale-envirment/src/test/resources
+2020-07-14 15:49:47,302 [Worker-91: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.example:spring-boot-liu-03-profiles-for-mutibale-envirment:0.0.1-SNAPSHOT @ /Users/liuyimin/Documents/02_个人篇/201_学习/SpringBootStudyReporsity/workspace-sts/spring-boot-liu-03-profiles-for-mutibale-envirment/pom.xml.
+2020-07-14 15:49:47,410 [Worker-91: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-07-14 15:49:47,410 [Worker-91: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-07-14 15:49:47,410 [Worker-91: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-07-14 15:49:47,411 [Worker-91: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-07-14 15:49:47,411 [Worker-91: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/liuyimin/Documents/02_个人篇/201_学习/SpringBootStudyReporsity/workspace-sts/spring-boot-liu-03-profiles-for-mutibale-envirment/src/test/resources
+2020-07-14 15:49:48,646 [Worker-92: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-07-14 15:49:48,646 [Worker-92: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2020-07-14 15:49:48,647 [Worker-92: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-07-14 15:49:48,648 [Worker-92: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-07-14 15:49:48,648 [Worker-92: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/liuyimin/Documents/02_个人篇/201_学习/SpringBootStudyReporsity/workspace-sts/spring-boot-liu-03-profiles-for-mutibale-envirment/src/test/resources
+2020-07-14 15:50:32,476 [Worker-44: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-07-14 15:50:32,477 [Worker-44: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2020-07-14 15:50:32,479 [Worker-44: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-07-14 15:50:32,480 [Worker-44: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-07-14 15:50:32,480 [Worker-44: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/liuyimin/Documents/02_个人篇/201_学习/SpringBootStudyReporsity/workspace-sts/spring-boot-liu-03-profiles-for-mutibale-envirment/src/test/resources
+2020-07-14 15:53:02,404 [Worker-97: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-07-14 15:53:02,404 [Worker-97: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-07-14 15:53:02,405 [Worker-97: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-07-14 15:53:02,406 [Worker-97: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-07-14 15:53:02,406 [Worker-97: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/liuyimin/Documents/02_个人篇/201_学习/SpringBootStudyReporsity/workspace-sts/spring-boot-liu-03-profiles-for-mutibale-envirment/src/test/resources
+2020-07-14 15:54:43,519 [Worker-98: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-07-14 15:54:43,519 [Worker-98: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-07-14 15:54:43,520 [Worker-98: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-07-14 15:54:43,521 [Worker-98: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-07-14 15:54:43,521 [Worker-98: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/liuyimin/Documents/02_个人篇/201_学习/SpringBootStudyReporsity/workspace-sts/spring-boot-liu-03-profiles-for-mutibale-envirment/src/test/resources
+2020-07-14 15:55:13,006 [Worker-97: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-07-14 15:55:13,006 [Worker-97: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-07-14 15:55:13,007 [Worker-97: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-07-14 15:55:13,008 [Worker-97: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-07-14 15:55:13,008 [Worker-97: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/liuyimin/Documents/02_个人篇/201_学习/SpringBootStudyReporsity/workspace-sts/spring-boot-liu-03-profiles-for-mutibale-envirment/src/test/resources
+2020-07-14 15:56:08,649 [Worker-97: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.example:spring-boot-liu-03-profiles-for-mutibale-envirment:0.0.1-SNAPSHOT @ /Users/liuyimin/Documents/02_个人篇/201_学习/SpringBootStudyReporsity/workspace-sts/spring-boot-liu-03-profiles-for-mutibale-envirment/pom.xml.
+2020-07-14 15:56:08,740 [Worker-97: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-07-14 15:56:08,740 [Worker-97: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-07-14 15:56:08,740 [Worker-97: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-07-14 15:56:08,741 [Worker-97: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-07-14 15:56:08,741 [Worker-97: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/liuyimin/Documents/02_个人篇/201_学习/SpringBootStudyReporsity/workspace-sts/spring-boot-liu-03-profiles-for-mutibale-envirment/src/test/resources
+2020-07-14 15:56:10,018 [Worker-99: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-07-14 15:56:10,018 [Worker-99: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2020-07-14 15:56:10,020 [Worker-99: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-07-14 15:56:10,021 [Worker-99: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-07-14 15:56:10,021 [Worker-99: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/liuyimin/Documents/02_个人篇/201_学习/SpringBootStudyReporsity/workspace-sts/spring-boot-liu-03-profiles-for-mutibale-envirment/src/test/resources
+2020-07-14 15:56:29,633 [Worker-98: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-07-14 15:56:29,633 [Worker-98: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-07-14 15:56:29,634 [Worker-98: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-07-14 15:56:29,634 [Worker-98: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-07-14 15:56:29,634 [Worker-98: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/liuyimin/Documents/02_个人篇/201_学习/SpringBootStudyReporsity/workspace-sts/spring-boot-liu-03-profiles-for-mutibale-envirment/src/test/resources
+2020-07-14 15:57:08,692 [Worker-96: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-07-14 15:57:08,692 [Worker-96: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-07-14 15:57:08,693 [Worker-96: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-07-14 15:57:08,694 [Worker-96: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-07-14 15:57:08,694 [Worker-96: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/liuyimin/Documents/02_个人篇/201_学习/SpringBootStudyReporsity/workspace-sts/spring-boot-liu-03-profiles-for-mutibale-envirment/src/test/resources
+2020-07-14 15:57:25,216 [Worker-100: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-07-14 15:57:25,217 [Worker-100: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-07-14 15:57:25,217 [Worker-100: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-07-14 15:57:25,218 [Worker-100: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-07-14 15:57:25,219 [Worker-100: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/liuyimin/Documents/02_个人篇/201_学习/SpringBootStudyReporsity/workspace-sts/spring-boot-liu-03-profiles-for-mutibale-envirment/src/test/resources
+2020-07-14 15:57:47,842 [Worker-101: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-07-14 15:57:47,842 [Worker-101: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-07-14 15:57:47,843 [Worker-101: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-07-14 15:57:47,844 [Worker-101: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-07-14 15:57:47,844 [Worker-101: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/liuyimin/Documents/02_个人篇/201_学习/SpringBootStudyReporsity/workspace-sts/spring-boot-liu-03-profiles-for-mutibale-envirment/src/test/resources
+2020-07-14 16:10:50,649 [Worker-105: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-07-14 16:10:50,649 [Worker-105: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2020-07-14 16:10:50,650 [Worker-105: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-07-14 16:10:50,652 [Worker-105: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-07-14 16:10:50,652 [Worker-105: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/liuyimin/Documents/02_个人篇/201_学习/SpringBootStudyReporsity/workspace-sts/spring-boot-liu-03-profiles-for-mutibale-envirment/src/test/resources
+2020-07-14 16:14:37,839 [Worker-103: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-07-14 16:14:37,839 [Worker-103: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-07-14 16:14:37,840 [Worker-103: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-07-14 16:14:37,841 [Worker-103: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-07-14 16:14:37,841 [Worker-103: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/liuyimin/Documents/02_个人篇/201_学习/SpringBootStudyReporsity/workspace-sts/spring-boot-liu-03-profiles-for-mutibale-envirment/src/test/resources
+2020-07-14 16:16:26,967 [Worker-106: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-07-14 16:16:26,968 [Worker-106: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-07-14 16:16:26,968 [Worker-106: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-07-14 16:16:26,969 [Worker-106: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-07-14 16:16:26,969 [Worker-106: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/liuyimin/Documents/02_个人篇/201_学习/SpringBootStudyReporsity/workspace-sts/spring-boot-liu-03-profiles-for-mutibale-envirment/src/test/resources
+2020-07-14 16:23:00,632 [Worker-107: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-07-14 16:23:00,632 [Worker-107: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-07-14 16:23:00,633 [Worker-107: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-07-14 16:23:00,634 [Worker-107: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-07-14 16:23:00,634 [Worker-107: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/liuyimin/Documents/02_个人篇/201_学习/SpringBootStudyReporsity/workspace-sts/spring-boot-liu-03-profiles-for-mutibale-envirment/src/test/resources
+2020-07-14 16:29:17,979 [Worker-113: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-07-14 16:29:17,979 [Worker-113: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-07-14 16:29:17,980 [Worker-113: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-07-14 16:29:17,981 [Worker-113: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-07-14 16:29:17,981 [Worker-113: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/liuyimin/Documents/02_个人篇/201_学习/SpringBootStudyReporsity/workspace-sts/spring-boot-liu-03-profiles-for-mutibale-envirment/src/test/resources
+2020-07-14 16:31:01,509 [Worker-113: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-07-14 16:31:01,510 [Worker-113: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-07-14 16:31:01,510 [Worker-113: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-07-14 16:31:01,510 [Worker-113: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-07-14 16:31:01,510 [Worker-113: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/liuyimin/Documents/02_个人篇/201_学习/SpringBootStudyReporsity/workspace-sts/spring-boot-liu-03-profiles-for-mutibale-envirment/src/test/resources
+2020-07-14 16:32:14,247 [Worker-115: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-07-14 16:32:14,247 [Worker-115: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-07-14 16:32:14,248 [Worker-115: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-07-14 16:32:14,249 [Worker-115: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-07-14 16:32:14,249 [Worker-115: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/liuyimin/Documents/02_个人篇/201_学习/SpringBootStudyReporsity/workspace-sts/spring-boot-liu-03-profiles-for-mutibale-envirment/src/test/resources
+2020-07-14 16:32:42,517 [Worker-115: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-07-14 16:32:42,517 [Worker-115: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-07-14 16:32:42,518 [Worker-115: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-07-14 16:32:42,519 [Worker-115: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-07-14 16:32:42,519 [Worker-115: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/liuyimin/Documents/02_个人篇/201_学习/SpringBootStudyReporsity/workspace-sts/spring-boot-liu-03-profiles-for-mutibale-envirment/src/test/resources
+2020-07-14 16:34:36,901 [Worker-115: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-07-14 16:34:36,901 [Worker-115: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-07-14 16:34:36,902 [Worker-115: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-07-14 16:34:36,903 [Worker-115: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-07-14 16:34:36,903 [Worker-115: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/liuyimin/Documents/02_个人篇/201_学习/SpringBootStudyReporsity/workspace-sts/spring-boot-liu-03-profiles-for-mutibale-envirment/src/test/resources
+2020-07-14 16:34:47,594 [Worker-112: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-07-14 16:34:47,595 [Worker-112: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-07-14 16:34:47,595 [Worker-112: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-07-14 16:34:47,596 [Worker-112: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-07-14 16:34:47,596 [Worker-112: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/liuyimin/Documents/02_个人篇/201_学习/SpringBootStudyReporsity/workspace-sts/spring-boot-liu-03-profiles-for-mutibale-envirment/src/test/resources
+2020-07-14 16:34:56,454 [Worker-115: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-07-14 16:34:56,454 [Worker-115: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-07-14 16:34:56,455 [Worker-115: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-07-14 16:34:56,456 [Worker-115: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-07-14 16:34:56,456 [Worker-115: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/liuyimin/Documents/02_个人篇/201_学习/SpringBootStudyReporsity/workspace-sts/spring-boot-liu-03-profiles-for-mutibale-envirment/src/test/resources
+2020-07-14 16:35:33,986 [Worker-115: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-07-14 16:35:33,986 [Worker-115: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-07-14 16:35:33,987 [Worker-115: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-07-14 16:35:33,988 [Worker-115: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-07-14 16:35:33,988 [Worker-115: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/liuyimin/Documents/02_个人篇/201_学习/SpringBootStudyReporsity/workspace-sts/spring-boot-liu-03-profiles-for-mutibale-envirment/src/test/resources
+2020-07-14 17:09:16,531 [Worker-116: Import Getting Started Content] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.example:spring-boot-liu-04-spring_config_location:0.0.1-SNAPSHOT @ /Users/liuyimin/Documents/02_个人篇/201_学习/SpringBootStudyReporsity/workspace-sts/spring-boot-liu-04-spring_config_location/pom.xml.
+2020-07-14 17:09:16,652 [Worker-116: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /spring-boot-liu-04-spring_config_location/src/main/java
+2020-07-14 17:09:16,652 [Worker-116: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /spring-boot-liu-04-spring_config_location/src/main/resources
+2020-07-14 17:09:16,653 [Worker-116: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /spring-boot-liu-04-spring_config_location/src/main/resources
+2020-07-14 17:09:16,655 [Worker-116: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /spring-boot-liu-04-spring_config_location/src/test/java
+2020-07-14 17:09:16,698 [Worker-116: Import Getting Started Content] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 0 sec
+2020-07-14 17:09:16,699 [Worker-116: Import Getting Started Content] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2020-07-14 17:09:16,798 [Worker-116: Import Getting Started Content] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.example:spring-boot-liu-04-spring_config_location:0.0.1-SNAPSHOT @ /Users/liuyimin/Documents/02_个人篇/201_学习/SpringBootStudyReporsity/workspace-sts/spring-boot-liu-04-spring_config_location/pom.xml.
+2020-07-14 17:09:16,898 [Worker-116: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /spring-boot-liu-04-spring_config_location/src/main/java
+2020-07-14 17:09:16,898 [Worker-116: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /spring-boot-liu-04-spring_config_location/src/main/resources
+2020-07-14 17:09:16,898 [Worker-116: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /spring-boot-liu-04-spring_config_location/src/main/resources
+2020-07-14 17:09:16,898 [Worker-116: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /spring-boot-liu-04-spring_config_location/src/test/java
+2020-07-14 17:09:16,960 [Worker-116: Import Getting Started Content] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 0 sec
+2020-07-14 17:09:17,140 [Worker-117: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-07-14 17:09:17,140 [Worker-117: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-07-14 17:09:17,141 [Worker-117: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-07-14 17:09:17,142 [Worker-117: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-07-14 17:09:17,142 [Worker-117: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/liuyimin/Documents/02_个人篇/201_学习/SpringBootStudyReporsity/workspace-sts/spring-boot-liu-03-profiles-for-mutibale-envirment/src/test/resources
+2020-07-14 17:09:17,256 [Worker-117: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-07-14 17:09:17,256 [Worker-117: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-07-14 17:09:17,258 [Worker-117: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-07-14 17:09:17,259 [Worker-117: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-07-14 17:09:17,259 [Worker-117: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/liuyimin/Documents/02_个人篇/201_学习/SpringBootStudyReporsity/workspace-sts/spring-boot-liu-04-spring_config_location/src/test/resources
+2020-07-14 17:09:45,097 [Worker-113: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-07-14 17:09:45,098 [Worker-113: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-07-14 17:09:45,098 [Worker-113: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-07-14 17:09:45,099 [Worker-113: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-07-14 17:09:45,099 [Worker-113: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/liuyimin/Documents/02_个人篇/201_学习/SpringBootStudyReporsity/workspace-sts/spring-boot-liu-04-spring_config_location/src/test/resources
+2020-07-14 17:26:00,755 [Worker-125: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-07-14 17:26:00,755 [Worker-125: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-07-14 17:26:00,756 [Worker-125: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-07-14 17:26:00,756 [Worker-125: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-07-14 17:26:00,756 [Worker-125: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/liuyimin/Documents/02_个人篇/201_学习/SpringBootStudyReporsity/workspace-sts/spring-boot-liu-04-spring_config_location/src/test/resources
+2020-07-14 17:29:16,230 [Worker-129: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-07-14 17:29:16,230 [Worker-129: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-07-14 17:29:16,231 [Worker-129: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-07-14 17:29:16,231 [Worker-129: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-07-14 17:29:16,231 [Worker-129: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/liuyimin/Documents/02_个人篇/201_学习/SpringBootStudyReporsity/workspace-sts/spring-boot-liu-04-spring_config_location/src/test/resources
+2020-07-14 21:18:56,660 [Worker-127: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-07-14 21:18:56,661 [Worker-127: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-07-14 21:18:56,661 [Worker-127: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-07-14 21:18:56,662 [Worker-127: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-07-14 21:18:56,662 [Worker-127: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/liuyimin/Documents/02_个人篇/201_学习/SpringBootStudyReporsity/workspace-sts/spring-boot-liu-04-spring_config_location/src/test/resources
+2020-07-14 21:19:19,120 [Worker-134: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-07-14 21:19:19,121 [Worker-134: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-07-14 21:19:19,121 [Worker-134: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-07-14 21:19:19,122 [Worker-134: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-07-14 21:19:19,122 [Worker-134: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/liuyimin/Documents/02_个人篇/201_学习/SpringBootStudyReporsity/workspace-sts/spring-boot-liu-04-spring_config_location/src/test/resources
+2020-07-14 21:24:36,099 [Worker-134: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-07-14 21:24:36,099 [Worker-134: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-07-14 21:24:36,100 [Worker-134: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-07-14 21:24:36,100 [Worker-134: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-07-14 21:24:36,100 [Worker-134: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/liuyimin/Documents/02_个人篇/201_学习/SpringBootStudyReporsity/workspace-sts/spring-boot-liu-04-spring_config_location/src/test/resources
+2020-07-14 21:28:19,183 [Worker-139: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-07-14 21:28:19,184 [Worker-139: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-07-14 21:28:19,184 [Worker-139: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-07-14 21:28:19,186 [Worker-139: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-07-14 21:28:19,186 [Worker-139: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/liuyimin/Documents/02_个人篇/201_学习/SpringBootStudyReporsity/workspace-sts/spring-boot-liu-04-spring_config_location/src/test/resources
+2020-07-14 21:34:01,197 [Worker-143: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-07-14 21:34:01,198 [Worker-143: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-07-14 21:34:01,199 [Worker-143: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-07-14 21:34:01,200 [Worker-143: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-07-14 21:34:01,200 [Worker-143: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/liuyimin/Documents/02_个人篇/201_学习/SpringBootStudyReporsity/workspace-sts/spring-boot-liu-04-spring_config_location/src/test/resources
+2020-07-14 21:40:21,832 [Worker-144: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-07-14 21:40:21,833 [Worker-144: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-07-14 21:40:21,833 [Worker-144: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-07-14 21:40:21,834 [Worker-144: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-07-14 21:40:21,834 [Worker-144: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/liuyimin/Documents/02_个人篇/201_学习/SpringBootStudyReporsity/workspace-sts/spring-boot-liu-04-spring_config_location/src/test/resources
