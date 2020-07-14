@@ -2,14 +2,12 @@ package com.example.profiles;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-
 @SpringBootApplication
 public class SpringBootLiu03ProfilesForMutibaleEnvirmentApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(SpringBootLiu03ProfilesForMutibaleEnvirmentApplication.class, args);
 	}
-	
 	/* ⭐⭐⭐⭐⭐⭐️尚硅谷 SpringBoot配置 Profile多环境支持（如开发环境，测试环境，商用环境等，通过Profile快速地来回切换
 	 * 
 	 * Profile是Spring对不同环境提供不同配置功能对支持，可以通过激活（Active），指定参数（IDE里参数设置），命令行执行命令语句等方式快速切换环境
