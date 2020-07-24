@@ -13,25 +13,20 @@ public class SpringBootLiu07WebDatabaseApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(SpringBootLiu07WebDatabaseApplication.class, args);
-		
 	}
 	
 	
-	/*
-	 * 如何定制：我们可以自己给容器中添加一个视图解析器，`ContentNegotiatingViewResolver`就会自动读取到我们添加到解析器并组合进来
-	 * */
+	/*20200722 实验开始： 如何定制：我们可以自己给容器中添加一个视图解析器，`ContentNegotiatingViewResolver`就会自动读取到我们添加到解析器并组合进来 */
 	@Bean
 	public ViewResolver myViewResolver() {
-
 		return new MyViewResolver();
 	}
 	private static class MyViewResolver implements ViewResolver{
-
 		@Override
 		public View resolveViewName(String viewName, Locale locale) throws Exception {
-			// TODO Auto-generated method stub
 			return null;
 		}
 	}
+	/*20200722  实验结束： 如何定制：我们可以自己给容器中添加一个视图解析器，`ContentNegotiatingViewResolver`就会自动读取到我们添加到解析器并组合进来 */
 
 }

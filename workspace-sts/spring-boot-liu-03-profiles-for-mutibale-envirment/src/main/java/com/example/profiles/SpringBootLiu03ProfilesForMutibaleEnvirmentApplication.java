@@ -25,5 +25,4 @@ public class SpringBootLiu03ProfilesForMutibaleEnvirmentApplication {
 	 * 			--配置文件激活 ： spring.profiles.active = dev / test / business
 	 * 			--jvm参数激活 ： -Dspring.profiles.active = dev / test / business
 	 * */
-
 }
