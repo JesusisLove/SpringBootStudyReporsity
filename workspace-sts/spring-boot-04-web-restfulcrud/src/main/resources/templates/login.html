@@ -40,8 +40,13 @@
       </div>
         <button class="btn btn-lg btn-primary btn-block" type="submit" th:text="#{login.btn}">Sign in</button>
         <p class="mt-5 mb-3 text-muted">&copy; 2017-2020</p>
-        <a class="btn btn-sm">中文</a>
-        <a class="btn btn-sm">English</a>
+<!--        <a class="btn btn-sm" th:href="@{/login.html?l=ja}">日本語</a>-->
+<!--        <a class="btn btn-sm" th:href="@{/login.html?l=zh_CN}">中文</a>-->
+<!--        <a class="btn btn-sm" th:href="@{/login.html?l=en_US}">English</a>-->
+
+        <a class="btn btn-sm" th:href="@{/login.html(l='ja_JP')}">日本語</a>
+        <a class="btn btn-sm" th:href="@{/login.html(l='zh_CN')}">中文</a>
+        <a class="btn btn-sm" th:href="@{/login.html(l='en_US')}">English</a>
     </form>
   </body>
 </html>

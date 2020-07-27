@@ -1,5 +1,7 @@
 package com.liu.springboot04web.config;
 
+import com.liu.springboot04web.component.MyLocalResolver;
+import org.springframework.web.servlet.LocaleResolver;
 import org.springframework.web.servlet.config.annotation.ViewControllerRegistry;
 import org.springframework.web.servlet.config.annotation.WebMvcConfigurerAdapter;
 import org.springframework.context.annotation.Bean;
@@ -10,8 +12,8 @@ import org.springframework.context.annotation.Configuration;
 // @EnableWebMvc//👈添加该注解，全面接管SpringMVC，自动配置就会失效
  * 在RestFulCRUD项目练习里，将@EnableWebMvc注释掉，使用SpringBoot的自动配置功能
  * */
-    @Configuration
-    public class MyMvcConfig extends WebMvcConfigurerAdapter {
+@Configuration
+public class MyMvcConfig extends WebMvcConfigurerAdapter {
 
     @Override
     public void addViewControllers(ViewControllerRegistry registry) {
@@ -49,4 +51,12 @@ import org.springframework.context.annotation.Configuration;
         }
         /* 20200723 场景说明结束 修改默认访问页面 第二种方式，第一中设置方式参看
          * HelloControler.java👉public String index() */
+
+
+    /* 2020/07/27
+    为了使区域解析器有效，就要在config的MyMvcConfig里面为此解析器添加一个组件 */
+    @Bean
+    public LocaleResolver localeResolver() {
+        return new MyLocalResolver();
+    }
 }
