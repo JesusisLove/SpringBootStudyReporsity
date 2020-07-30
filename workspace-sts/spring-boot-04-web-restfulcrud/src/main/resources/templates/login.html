@@ -1,6 +1,6 @@
 
 <!doctype html>
-<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
   <head>
     <meta http-equiv="Content-Type" content="text/html" charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -13,20 +13,21 @@
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/sign-in/signin.css" th:href="@{/sign-in/signin.css}"  rel="stylesheet">
   </head>
   <body class="text-center">
-    <form class="form-signin" action="dashboard.html">
+    <form class="form-signin" action="dashboard.html" th:action="@{/user/login}" method="post">
         <img class="mb-4" th:src="@{/assets/brand/bootstrap-solid.svg}" alt="" width="72" height="72">
 <!--    <h1 class="h3 mb-3 font-weight-normal">Please sign in</h1>-->
         <h1 class="h3 mb-3 font-weight-normal" th:text="#{login.tip}">Please sign in</h1>
+        <p style="color: red" th:text="${msg}" th:if="${not #strings.isEmpty(msg)}"></p>
 
 <!--    <label for="inputUsername" class="sr-only">UserName</label>
         <input type="text" id="inputUsername" class="form-control" placeholder="UserName" required>-->
         <label for="inputUsername" class="sr-only" th:text="#{login.username}">UserName</label>
-        <input type="text" id="inputUsername" class="form-control" placeholder="UserName" th:placeholder="#{login.username}" required>
+        <input type="text" name="username" class="form-control" placeholder="UserName" th:placeholder="#{login.username}" required>
 
 <!--    <label for="inputPassword" class="sr-only">Password</label>
         <input type="password" id="inputPassword" class="form-control" placeholder="Password" required>-->
         <label for="inputPassword" class="sr-only" th:text="#{login.password}">Password</label>
-        <input type="password" id="inputPassword" class="form-control" placeholder="Password" th:placeholder="#{login.password}" required>
+        <input type="password" name="password" class="form-control" placeholder="Password" th:placeholder="#{login.password}" required>
 
 <!--    <label for="inputEmail" class="sr-only">Email address</label>
         <label for="inputEmail" class="sr-only" th:text="#{login.email}">Email address</label>

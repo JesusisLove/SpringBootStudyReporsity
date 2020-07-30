@@ -1,4 +1,5 @@
 package com.liu.springboot04web.dao;
+import java.util.Collection;
 import java.util.HashMap;
 import java.util.Map;
 
@@ -36,5 +37,12 @@ public class EmplyeeDao {
 		employee.setDepartment(departmentDao.getDepartment(employee.getDepartment().getId()));
 		employees.put(employee.getGender(), employee);
 	}
+
+	// 查询所有员工
+	public Collection<Employee> getAll() { return employees.values();}
+
+	public Employee get(Integer id) { return employees.get(id); }
+
+	public void delete(Integer id) { employees.remove(id); }
 
 }
