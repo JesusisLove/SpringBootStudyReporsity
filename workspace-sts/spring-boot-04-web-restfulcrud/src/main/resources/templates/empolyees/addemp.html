@@ -41,42 +41,39 @@
 		<div class="row">
 			<div th:replace="~{commons/bar::sidebar(activeUri='emps')}"></div><!-- 2020/07/30 学习 thymeleaf 公共片段的抽取和引用：在此引用抽取的片段 -->
 			<main role="main" class="col-md-9 ml-sm-auto col-lg-10 px-md-4">
-				<hr/>
-				<!--	2020/07/30 学习 点击【员工添加】，通过EmployeeController.java → public String toAddEmp() → 来到添加员工页面   -->
-				<!--    <h2><button class="btn btn-sm btn-success"></button>  因为要执行页面跳转，所以要把button标签该用a标签-->
-				<h2><a class="btn btn-sm btn-success" href="emp" th:href="@{/emp}">员工添加</a></h2>
-				<hr/>
-				<!--	2020/07/30 学习 点击sidebar的【Bazel 员工管理】，获取员工列表信息（还未连接数据库）-->
-				<div class="table-responsive">
-					<table class="table table-striped table-sm">
-						<thead>
-							<tr>
-								<th>#编号</th>
-								<th>姓名</th>
-								<th>性别</th>
-								<th>出生年月日</th>
-								<th>邮箱</th>
-								<th>所属部门</th>
-								<th>操作</th>
-							</tr>
-						</thead>
-						<tbody>
-							<tr th:each="emp:${emps}">
-								<td th:text="${emp.id}"></td>
-								<td >[[${emp.lastName}]]</td>
-								<td th:text="${emp.gender}==0?'女':'男'"></td>
-								<td >[[${#dates.format(emp.birth,'yyyy/mm/dd')}]]</td>
-								<!--<td th:text="${#calendars.format(emp.birth,'yyyy/mm/dd')}"></td> 用calanders格式化日期也可以-->
-								<td >[[${emp.email}]]</td>
-								<td th:text="${emp.department.departmentName}"></td>
-								<td>
-									<button class="btn btn-sm btn-primary">编辑</button>
-									<button class="btn btn-sm btn-danger">删除</button>
-								</td>
-							</tr>
-						</tbody>
-					</table>
-				</div>
+				<form>
+					<div class="form-group"><br>
+						<label>姓名</label>
+						<input type="text" class="form-control" placeholder="zhangsan">
+					</div>
+					<div class="form-group">
+						<label>性别</label>
+						<div class="form-check form-check-inline">
+							<input class="form-check-input" type="radio" name="gender" value="1">
+							<label class="form-check-label">男</label>
+						</div>
+						<div class="form-check form-check-inline">
+							<input class="form-check-input" type="radio" name="gender" value="0">
+							<label class="form-check-label">女</label>
+						</div>
+					</div>
+					<div class="form-group">
+						<label>邮箱</label>
+						<input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+					</div>
+					<div class="form-group">
+						<label>所属部门</label>
+						<select class="form-control">
+							<!-- 注意：当执行添加当时候，往数据库里提交当时候，提交当是部门的id，所以要设置option的value值=部门.id -->
+							<option th:value="${dept.id}" th:each="dept:${depts}">[[${dept.departmentName}]]</option>
+						</select>
+					</div>
+					<div class="form-group">
+						<label>出生日期</label>
+						<input type="text" class="form-control" placeholder="zhangsan">
+					</div>
+					<button type="submit" class="btn btn-primary">添加</button>
+				</form>
 			</main>
 		</div>
 	</div>
