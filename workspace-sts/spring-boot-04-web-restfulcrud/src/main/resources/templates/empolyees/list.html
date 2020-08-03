@@ -29,7 +29,7 @@
 		}
 	</style>
 	<!-- Custom styles for this template -->
-	<link href="dashboard.css" th:href="@{/dashboard/dashboard.css}"  rel="stylesheet">
+<!--	<link href="dashboard.css" th:href="@{/dashboard/dashboard.css}"  rel="stylesheet">-->
 </head>
 <body>
 <!--	引入抽取的topbar
@@ -39,7 +39,12 @@
 	<div th:replace="~{commons/bar::topbar}"></div><!-- 2020/07/30 学习 thymeleaf 公共片段的抽取和引用：在此引用抽取的片段 -->
 	<div class="container-fluid">
 		<div class="row">
-			<div th:replace="~{commons/bar::sidebar(activeUri='emps')}"></div><!-- 2020/07/30 学习 thymeleaf 公共片段的抽取和引用：在此引用抽取的片段 -->
+			<!-- 2020/07/30 学习 thymeleaf 公共片段的抽取和引用：在此引用抽取的片，同时给变量activeUri赋值 以使当前连接的字体颜色高亮显示
+			变量传递语法：
+				<div th:replace="::frag (onevar=${value1},twovar=${value2})">...</div>
+			参看：Thymeleaf使用手册：8.2 Parameterizable fragment signatures
+			-->
+			<div th:replace="~{commons/bar::sidebar(activeUri='emps_link_active')}"></div>
 			<main role="main" class="col-md-9 ml-sm-auto col-lg-10 px-md-4">
 				<hr/>
 				<!--	2020/07/30 学习 点击【员工添加】，通过EmployeeController.java → public String toAddEmp() → 来到添加员工页面   -->
@@ -62,23 +67,57 @@
 						</thead>
 						<tbody>
 							<tr th:each="emp:${emps}">
-								<td th:text="${emp.id}"></td>
+								<td>[[${emp.id}]]</td>
 								<td >[[${emp.lastName}]]</td>
 								<td th:text="${emp.gender}==0?'女':'男'"></td>
-								<td >[[${#dates.format(emp.birth,'yyyy/mm/dd')}]]</td>
+								<td >[[${#dates.format(emp.birth,'yyyy/MM/dd')}]]</td>
 								<!--<td th:text="${#calendars.format(emp.birth,'yyyy/mm/dd')}"></td> 用calanders格式化日期也可以-->
 								<td >[[${emp.email}]]</td>
 								<td th:text="${emp.department.departmentName}"></td>
 								<td>
-									<button class="btn btn-sm btn-primary">编辑</button>
-									<button class="btn btn-sm btn-danger">删除</button>
+<!--									<button class="btn btn-sm btn-primary">编辑</button>-->
+<!--									<button class="btn btn-sm btn-danger">删除</button>-->
+									<!--2020/07/31 实现员工"编辑"功能
+									restful的CURD风格
+										请求uri：资源名称/资源标识 to_emp_page/{id}
+										请求方式：GET
+										-->
+									<a class="btn btn-sm btn-primary" th:href="@{/emp/}+${emp.id}" methods="GET">编辑</a>
+									<!--2020/08/01 实现删除处理	把form写在这里非常不好，因为有多少个删除按钮就会有多少个表单，非常不好	-->
+<!--									<form th:action="@{/emp/}+${emp.id}" method="post">-->
+<!--										<input type="hidden" name="_method" value="delete">-->
+<!--										<button type="submit" class="btn btn-sm btn-danger">删除</button>-->
+<!--									</form>-->
+									<!--自定义属性 参看usingthymeleaf.pdf的5 Setting Attribute Values -->
+									<button class="btn btn-sm btn-danger deleteBtn"
+											th:attr="liu_del_uri=@{/emp/} + ${emp.id}">删除</button>
 								</td>
 							</tr>
 						</tbody>
 					</table>
 				</div>
 			</main>
+			<!--2020/08/01 实现删除处理-->
+			<form id="deleteEmpForm" action="" method="post">
+				<input type="hidden" name="_method" value="Delete"/>
+			</form>
 		</div>
 	</div>
+	<!--Bootstrap core JavaScrip
+	=============================-->
+	<script type="text/javascript" th:src="@{/webjars/jquery/3.5.1/jquery.slim.min.js}"></script>
+	<script type="text/javascript" th:src="@{/webjars/popper.js/1.16.0/umd/popper.min.js}"></script>
+	<script type="text/javascript" th:src="@{/webjars/bootstrap/4.5.0/js/bootstrap.min.js}"></script>
+	<!--2020/08/01 实现删除处理 通过js实现删除按钮的点击事件-->
+	<script>
+		$(".deleteBtn").click(function() {
+			//this表示当前的删除按钮
+			let del_uri = $(this).attr("liu_del_uri");
+			alert("-------delete-------" + del_uri);
+			//找到对象表单，执行submit
+			$("#deleteEmpForm").attr("action",del_uri).submit();
+			return false;
+		});
+	</script>
 </body>
 </html>

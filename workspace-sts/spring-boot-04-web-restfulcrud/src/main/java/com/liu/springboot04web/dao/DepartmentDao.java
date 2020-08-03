@@ -19,11 +19,11 @@ public class DepartmentDao {
 	static {
 		departments = new HashMap<Integer, Department>();
 		
-		departments.put(101, new Department(101,"D-AA"));
-		departments.put(102, new Department(101,"D-BB"));
-		departments.put(103, new Department(101,"D-CC"));
-		departments.put(104, new Department(101,"D-DD"));
-		departments.put(105, new Department(101,"D-EE"));
+		departments.put(101, new Department(101,"部门-AA"));
+		departments.put(102, new Department(102,"部门-BB"));
+		departments.put(103, new Department(103,"部门-CC"));
+		departments.put(104, new Department(104,"部门-DD"));
+		departments.put(105, new Department(105,"部门-EE"));
 	}
 	
 	public Collection<Department> getDepartments() {
