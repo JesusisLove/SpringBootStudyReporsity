@@ -37,8 +37,8 @@
 <div th:replace="~{commons/bar::topbar}"></div>
 <div class="container-fluid">
   <div class="row">
-<!--在此引用commons/bar.html里的sidebar-->
-    <div th:replace="commons/bar::sidebar(activeUri='main.html')"></div>
+    <!--在此引用commons/bar.html里的sidebar-->
+    <div th:replace="commons/bar::sidebar(activeUri='main_link_active')"></div><!-- 2020/07/30 学习 thymeleaf 公共片段的抽取和引用：在此引用抽取的片，同时给变量activeUri赋值 以使当前连接的字体颜色高亮显示-->
     <main role="main" class="col-md-9 ml-sm-auto col-lg-10 px-md-4">
       <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
         <h1 class="h2">Dashboard</h1>

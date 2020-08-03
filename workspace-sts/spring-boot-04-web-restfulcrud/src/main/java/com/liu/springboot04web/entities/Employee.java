@@ -10,7 +10,8 @@ public class Employee {
 	private Integer gender;// 1 male, 0 famale
 	private Department department;
 	private Date birth;
-	
+
+	public Employee(){}
 	
 	public Employee(Integer id, String lastName, String email, Integer gender, Department department, Date birth) {
 
@@ -59,6 +60,16 @@ public class Employee {
 	public void setBirth(Date birth) {
 		this.birth = birth;
 	}
-	
-	
+
+	@Override
+	public String toString() {
+		return "Employee{" +
+				"id=" + id +
+				", lastName='" + lastName + '\'' +
+				", email='" + email + '\'' +
+				", gender=" + gender +
+				", department=" + department +
+				", birth=" + birth +
+				'}';
+	}
 }

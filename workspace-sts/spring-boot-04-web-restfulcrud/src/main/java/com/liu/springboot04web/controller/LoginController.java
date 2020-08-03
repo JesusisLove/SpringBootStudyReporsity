@@ -20,7 +20,7 @@ public class LoginController {
                         Map<String,Object> map,
                         HttpSession session // 2020/07/28 为了使用拦截器
                         ) {
-        if (!StringUtils.isEmpty(username) && "1234".equals(password)) {
+        if (!StringUtils.isEmpty(username) && "1".equals(password)) {
             // 2020/07/27 登录成功，跳转到dashboard画面
 //             return "dashboard"; // 问题来了，如果进入dashboard页面后，不断滴刷新该页面，就会出现表单重复提交现象
 
