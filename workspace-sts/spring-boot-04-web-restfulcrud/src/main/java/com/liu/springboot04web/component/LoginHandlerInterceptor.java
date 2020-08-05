@@ -13,7 +13,6 @@ import javax.servlet.http.HttpServletResponse;
 /*
 * 拦截器的作用就是，登录检查；对于那些没有登录的用户，不能访问后台的主页main.html
 * */
-
 public class LoginHandlerInterceptor implements HandlerInterceptor {
     // 目标方法执行之前，做一个预检查，看看当前登录的用户存不存在
     @Override
