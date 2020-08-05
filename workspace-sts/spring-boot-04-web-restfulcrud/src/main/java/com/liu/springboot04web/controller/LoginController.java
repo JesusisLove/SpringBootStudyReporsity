@@ -1,5 +1,6 @@
 package com.liu.springboot04web.controller;
 
+import com.liu.springboot04web.exception.UserNotExistException;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.*;
 import org.thymeleaf.util.StringUtils;
@@ -20,6 +21,14 @@ public class LoginController {
                         Map<String,Object> map,
                         HttpSession session // 2020/07/28 为了使用拦截器
                         ) {
+
+        /* 2020/08/04 学习错误信息处理机制 自定义异常处理应用 开始 */
+        if (!username.equals("admin")) {
+            throw new UserNotExistException();
+        }
+        /* 2020/08/04 学习错误信息处理机制 自定义异常处理应用 终了 */
+
+
         if (!StringUtils.isEmpty(username) && "1".equals(password)) {
             // 2020/07/27 登录成功，跳转到dashboard画面
 //             return "dashboard"; // 问题来了，如果进入dashboard页面后，不断滴刷新该页面，就会出现表单重复提交现象
