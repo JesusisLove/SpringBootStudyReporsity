@@ -1,0 +1,8 @@
+#spring:
+#    jpa:
+#      database: MYSQL
+#    datasource:
+#      url: jdbc:mysql://localhost:3306/liuDB
+#      username: root
+#      password: admin
+#      driverClassName: com.mysql.cj.jdbc.Driver
