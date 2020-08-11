@@ -1,0 +1,34 @@
+spring:
+  datasource:
+    #数据源基本配置
+    username: root
+    password: admin
+    url: jdbc:mysql://127.0.0.1:3306/liuDB
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    type: com.alibaba.druid.pool.DruidDataSource
+    #数据源其他配置
+    initialSize: 5
+    minIdle: 5
+    maxActive: 20
+    maxWait: 60000
+    timeBetweenEvictionRunsMillis: 60000
+    minEvictableIdleTimeMillis: 30000
+    validationQuery: SELECT 1 FROM DUAL
+    testWhileInle: true
+    testOnBorrow: false
+    testOnReturn: false
+    poolPreparedStatements: true
+    #配置监控统计拦截的filters，去掉后监控姐妹sql无法统计，'wall'用于防火墙
+    filters: stat,wall.log4j
+    maxPoolPreparedStatementPerConnectionSize: 20
+    usGlobalDataSourceStat: true
+    connectionProperties: druid.stat.mergeSql-true;druid.stat.slowSqlMillis-500
+    #指定放在静态资源文件夹下面的SQL文件
+#    schema:
+#      - classpath:sql/create_dept.sql
+#      - classpath:sql/create_emp.sql
+#2020/08/10 学习数据库访问之---配置文件模式
+mybatis:
+  config-location: classpath:mybatis/mybatis-config.xml
+#  mybatis/mapper/*.xml这是一个全局配置，表示适用于mapper路径下的所有xml文件
+  mapper-locations: classpath:mybatis/mapper/*.xml
