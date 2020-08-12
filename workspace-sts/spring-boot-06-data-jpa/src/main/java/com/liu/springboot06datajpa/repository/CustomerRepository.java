@@ -11,5 +11,5 @@ import org.springframework.data.jpa.repository.JpaRepository;
 // 所以最终写成=》JpaRepository<Employee,Integer> */
 
 // 继承JpaRepository来完成对数据库的操作
-public interface EmployeeRepository extends JpaRepository<Customer,Integer> {
+public interface CustomerRepository extends JpaRepository<Customer,Integer> {
 }
