@@ -1,0 +1,7 @@
+# 自己定制的Initializers  说明"\"表示换行
+org.springframework.context.ApplicationContextInitializer=\
+com.liu.springboot07.listener.HelloApplicationContextInitializer
+
+# 自己定制的 Run Listeners
+org.springframework.boot.SpringApplicationRunListener=\
+com.liu.springboot07.listener.HelloSpringApplicationRunListener
