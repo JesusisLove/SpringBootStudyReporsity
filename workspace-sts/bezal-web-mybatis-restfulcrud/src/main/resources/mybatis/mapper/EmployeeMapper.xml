@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!--
+关于Mybatis的SQL文件映射该怎么写，我们要参照Mybatis的官方文档，官方文档都托管到了GitHub下
+我们就从GitHub网站去搜索MyBatis的相关资料
+配置的参照例子
+https://mybatis.org/mybatis-3/getting-started.html
+
+-->
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.liu.springboot04web.mapper.EmployeeMapper">
+
+<!--public Employee getEmtById(Integer id);
+    public void insertEmy(Employee employee);
+
+    另外，配置的SQL文件映射，如何能让MyBatis知道呢？就要去application.yml文件做MyBatis的相关配置
+    让MyBatis知道这里的SQL文件
+            select * from `employee` where `‘id’` = #{id}
+    -->
+    <select id="getEmpAll" resultType="com.liu.springboot04web.bean.Employee">
+        select * from bezal_employee
+    </select>
+
+    <select id="getEmpById" resultType="com.liu.springboot04web.bean.Employee">
+        select id,first_name,last_name,gender,dep_id,email,birth_day from bezal_employee where id = #{id}
+    </select>
+
+    <update id="updateEmp">
+      update bezal_employee set
+        first_name = #{firstName},
+        last_name = #{lastName},
+        gender = #{gender},
+        birth_day = #{birthDay},
+        dep_id = #{department.depId},
+        email = #{email}
+      where id = #{id}
+    </update>
+
+    <insert id="insertEmp" keyColumn="id">
+        insert into `bezal_employee` (`id` ,`first_name` ,`last_name` ,`gender`,`email`,`birth_day`,`dep_id` )
+        values (#{id},#{firstName},#{lastName},#{gender},#{email},#{birthDay},#{depId})
+    </insert>
+
+    <delete id="deleteEmp">
+        delete from bezal_employee where id = #{id}
+    </delete>
+
+</mapper>
