@@ -16,7 +16,6 @@ public class Employee {
 	public Employee(){}
 	
 	public Employee(Integer id, String lastName, String email, Integer gender, Department department, Integer depId,Date birthDay) {
-
 //		super();
 		this.id = id;
 		this.lastName = lastName;
@@ -33,36 +32,42 @@ public class Employee {
 	public void setId(Integer id) {
 		this.id = id;
 	}
+
 	public String getFirstName() {
 		return firstName;
 	}
 	public void setFirstName(String firstName) {
 		this.firstName = firstName;
 	}
+
 	public String getLastName() {
 		return lastName;
 	}
 	public void setLastName(String lastName) {
 		this.lastName = lastName;
 	}
+
 	public String getEmail() {
 		return email;
 	}
 	public void setEmail(String email) {
 		this.email = email;
 	}
+
 	public Integer getGender() {
 		return gender;
 	}
 	public void setGender(Integer gender) {
 		this.gender = gender;
 	}
+
 	public Department getDepartment() {
 		return department;
 	}
 	public void setDepartment(Department department) {
 		this.department = department;
 	}
+
 	public Integer getDepId() {return depId; }
 	public void setDepId(Integer depId) {
 		this.depId = depId;
@@ -71,7 +76,6 @@ public class Employee {
 	public Date getBirthDay() {
 		return birthDay;
 	}
-
 	public void setBirthDay(Date birthDay) {
 		this.birthDay = birthDay;
 	}
