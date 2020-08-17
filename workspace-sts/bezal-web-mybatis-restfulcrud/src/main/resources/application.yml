@@ -31,6 +31,7 @@ spring:
 #    #执行SQL语句的时候，可以在控制台显示SQL文
 #    show-sql: true
 mybatis:
+  # Location of MyBatis xml config file.
   config-location: classpath:mybatis/mybatis-config.xml
-  #  mybatis/mapper/*.xml这是一个全局配置，表示适用于mapper路径下的所有xml文件
+  # Locations of MyBatis mapper files.【 mybatis/mapper/*.xml这是一个全局配置，表示适用于mapper路径下的所有xml文件】
   mapper-locations: classpath:mybatis/mapper/*.xml

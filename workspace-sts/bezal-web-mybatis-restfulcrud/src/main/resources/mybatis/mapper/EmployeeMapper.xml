@@ -39,7 +39,7 @@ https://mybatis.org/mybatis-3/getting-started.html
 
     <insert id="insertEmp" keyColumn="id">
         insert into `bezal_employee` (`id` ,`first_name` ,`last_name` ,`gender`,`email`,`birth_day`,`dep_id` )
-        values (#{id},#{firstName},#{lastName},#{gender},#{email},#{birthDay},#{depId})
+        values (#{id},#{firstName},#{lastName},#{gender},#{email},#{birthDay},#{department.depId})
     </insert>
 
     <delete id="deleteEmp">

@@ -10,28 +10,31 @@ import com.liu.springboot04web.bean.*;
 
 @Repository
 public class EmplyeeDao {
-//	@Autowired
-//	private DepartmentDao departmentDao;
 
 	@Autowired //get,set方法
 	EmployeeMapper employeeMapper;
 	@Autowired
 	DepartmentMapper departmentMapper;
 
-//	private static Integer initId = 1001;
+	// 执行员工信息的保存处理
 	public void save(Employee employee) {
 		if(employee.getId() == null) {
 			insert(employee);
 		} else {
 			update(employee);
 		}
-
-//		employee.setDepartment(departmentDao.getDepartment(employee.getDepartment().getId()));
-//		employees.put(employee.getId(), employee);
 	}
 	// 查询所有员工
 	public Collection<Employee> getAll() {
-		return employeeMapper.getEmpAll();
+		List<Employee> list = employeeMapper.getEmpAll();
+		for (Employee e : list) {
+			// 从bezal_department表取得该员工所在的部门信息
+			Integer depid = e.getDepId();
+			Department department = departmentMapper.getDeptById(depid);
+			e.setDepartment(department);
+		}
+
+		return list;
 	}
 	// 查询指定员工
 	public Employee get(Integer id) {
@@ -42,24 +45,23 @@ public class EmplyeeDao {
 		Integer depid = employee.getDepId();
 		Department department = departmentMapper.getDeptById(depid);
 		employee.setDepartment(department);
+
 		return employee;
 	}
 	// 添加新员工
-	public Employee insert(Employee employee) {
+	private Employee insert(Employee employee) {
 		employeeMapper.insertEmp(employee);
+
 		return employee;
 	}
 	// 修改指定员工
-	public Employee update(Employee employee) {
+	private Employee update(Employee employee) {
 		employeeMapper.updateEmp(employee);
-//		// 从bezal_department表取得该员工所在的部门信息
-//		Integer depid = employee.getDepId();
-//		Department department = departmentMapper.getDeptById(depid);
-//		employee.setDepartment(department);
-		return employee;
+
+//		return employee;//备注：新规员工，修改员工无需返回 employee对象，所以完全可以把方法类型改为 public void insert/update...
+		return null;
 	}
 	// 删除指定员工
-//	public void delete(Integer id) { employees.remove(id); }
 	public void delete(Integer id) { employeeMapper.deleteEmp(id); }
 
 }
