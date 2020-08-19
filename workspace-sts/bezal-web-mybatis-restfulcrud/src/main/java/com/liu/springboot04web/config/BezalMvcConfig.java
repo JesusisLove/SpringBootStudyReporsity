@@ -1,7 +1,6 @@
 package com.liu.springboot04web.config;
 
-import com.liu.springboot04web.component.LoginHandlerInterceptor;
-import com.liu.springboot04web.component.MyLocalResolver;
+import com.liu.springboot04web.component.MutableLanuageLocalResolver;
 import org.springframework.web.servlet.LocaleResolver;
 import org.springframework.web.servlet.config.annotation.InterceptorRegistry;
 import org.springframework.web.servlet.config.annotation.ViewControllerRegistry;
@@ -15,7 +14,7 @@ import org.springframework.context.annotation.Configuration;
  * 在RestFulCRUD项目练习里，将@EnableWebMvc注释掉，使用SpringBoot的自动配置功能
  * */
 @Configuration
-public class MyMvcConfig extends WebMvcConfigurerAdapter {
+public class BezalMvcConfig extends WebMvcConfigurerAdapter {
 
     @Override
     public void addViewControllers(ViewControllerRegistry registry) {
@@ -23,7 +22,6 @@ public class MyMvcConfig extends WebMvcConfigurerAdapter {
         // (@EnableWebMvc 不能标注) 启动SpringBoot，打开浏览器，在地址栏输入“http://localhost:8080/liu”即可进入“成功”页面
         registry.addViewController("/liu").setViewName("success");
     }
-
 
     /* 例子 3 在浏览器地址栏里输入 【localhost:8080】 改变默认的欢迎页面 */
     /* 20200723 场景说明开始 修改默认访问页面 第二种方式
@@ -76,7 +74,7 @@ public class MyMvcConfig extends WebMvcConfigurerAdapter {
     为了使区域解析器有效，就要在config的MyMvcConfig里面为此解析器添加一个组件 */
     @Bean
     public LocaleResolver localeResolver() {
-        return new MyLocalResolver();
+        return new MutableLanuageLocalResolver();
     }
 
 }

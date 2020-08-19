@@ -17,7 +17,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 @ControllerAdvice  // 👈在SpringMVC中，要成为异常处理器，它（本class）得是一个ControllerAdvice
-public class MyExceptionHandler {
+public class BezalExceptionHandler {
 
 //    @ResponseBody
 //    @ExceptionHandler(UserNotExistException.class)
