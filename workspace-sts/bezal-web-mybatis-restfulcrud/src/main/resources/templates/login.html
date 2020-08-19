@@ -17,7 +17,7 @@
         <img class="mb-4" th:src="@{/assets/brand/bootstrap-solid.svg}" alt="" width="72" height="72">
 <!--    <h1 class="h3 mb-3 font-weight-normal">Please sign in</h1>-->
         <h1 class="h3 mb-3 font-weight-normal" th:text="#{login.tip}">Please sign in</h1>
-        <p style="color: red" th:text="${msg}" th:if="${not #strings.isEmpty(msg)}"></p>
+        <p style="color: red" th:text="${msg.toString()}" th:if="${not #strings.isEmpty(msg)}"></p>
 
 <!--    <label for="inputUsername" class="sr-only">UserName</label>
         <input type="text" id="inputUsername" class="form-control" placeholder="UserName" required>-->

@@ -24,7 +24,12 @@ public class LoginController {
 
         /* 2020/08/04 学习错误信息处理机制 自定义异常处理应用 开始 */
         if (!username.equals("admin")) {
-            throw new UserNotExistException();
+            /*
+            // 如果用户不是admin，则抛自定义的异常
+             throw new UserNotExistException();
+            */
+            map.put("msg","用户名密码错误");
+            return "login";
         }
         /* 2020/08/04 学习错误信息处理机制 自定义异常处理应用 终了 */
 

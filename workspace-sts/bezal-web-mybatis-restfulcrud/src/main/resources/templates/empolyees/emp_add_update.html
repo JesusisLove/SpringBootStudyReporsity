@@ -92,6 +92,7 @@
 				<div class="form-group">
 					<!--2020/07/30 <input name="birth" type="text" class="form-control" placeholder="yyyy/mm/dd">-->
 					<label>出生日期</label>
+<!--					<p style="color: red" th:text="${msgbirthday}" th:if="${not #strings.isEmpty(msgbirthday)}"></p>-->
 					<input name="birthDay" type="text" class="form-control" placeholder="yyyy/mm/dd" th:value="${selectedemp!=null}?${#dates.format(selectedemp.birthDay,'yyyy/MM/dd')}">
 				</div>
 				<!--因为员工的添加和修改共同使用同一个页面，通过${selectedemp!=null}来判断，员工对象如果为null则是添加页面，如果员工不为null则是修改页面-->

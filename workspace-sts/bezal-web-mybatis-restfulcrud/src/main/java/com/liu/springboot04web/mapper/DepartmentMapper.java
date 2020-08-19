@@ -20,7 +20,7 @@ public interface DepartmentMapper {
     @Insert("insert into `bezal_department`(`department_name`) values('${departmentName}')")
     public int insertDept(Department dept);
 
-    @Update("update `bezal_department` set `department_name`='#{departmentName}' where `dep_id`=${depId}")
+    @Update("update `bezal_department` set `department_name`='${departmentName}' where `dep_id`=${depId}")
     public int updateDept(Department dept);
 
     @Delete("delete from `bezal_department` where `dep_id`=${depId}")
