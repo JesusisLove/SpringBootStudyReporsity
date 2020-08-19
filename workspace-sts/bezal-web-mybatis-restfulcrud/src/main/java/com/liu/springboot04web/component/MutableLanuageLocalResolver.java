@@ -11,7 +11,7 @@ import java.util.Locale;
 /*
 * 为了使区域解析器有效，就要在config/MyMvcConfig里面为此解析器添加一个组件
 * */
-public class MyLocalResolver implements LocaleResolver {
+public class MutableLanuageLocalResolver implements LocaleResolver {
     @Override
     public Locale resolveLocale(HttpServletRequest request) {
         String l = request.getParameter("l");
