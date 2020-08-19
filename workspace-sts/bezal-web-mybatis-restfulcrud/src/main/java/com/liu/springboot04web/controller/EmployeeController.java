@@ -59,9 +59,8 @@ public class EmployeeController {
     *       private String lastName;
     * */
     @PostMapping("/emp") //👈addemp.html页面，点击【添加】按钮发来的请求（因为是POST，所以是一个追加请求）
-    public String doEmpAdd(Employee employee) {
+    public String doEmpAdd(Employee employee,Model model) {
         System.out.println("" + employee);
-
         // 执行员工保存操作
         emplyeeDao.save(employee);
         // 重定向到员工列表显示页面

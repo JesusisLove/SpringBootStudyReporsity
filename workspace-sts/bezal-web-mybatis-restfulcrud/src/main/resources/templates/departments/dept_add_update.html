@@ -54,12 +54,12 @@
 								-->
 				<!--2020/07/31 在修改员工的模式下，添加修改的请求方式，注意 name="_mothod"👈必须带下划线 该input标签显示的条件是--👉th:if="${selectedemp!=null}" -->
 				<input type="hidden" name="_method" value="put" th:if="${selectedept!=null}"/>
-				<input type="hidden" name="id" th:if="${selectedept!=null}" th:value="${selectedept.depId}"/>
+				<input type="hidden" name="depId" th:if="${selectedept!=null}" th:value="${selectedept.depId}"/>
 
 				<div class="form-group"><br>
 					<label>部门名称</label>
 					<!--2020/07/30 <input name="lastName" type="text" class="form-control" placeholder="zhangsan">-->
-					<input name="departmentName" type="text" class="form-control" placeholder="zhangsan" th:value="${selectedept!=null}?${selectedept.departmentName}">
+					<input name="departmentName" type="text" class="form-control" placeholder="zhangsan"  th:value="${selectedept!=null}?${selectedept.departmentName}">
 				</div>
 				<!--因为员工的添加和修改共同使用同一个页面，通过${selectedemp!=null}来判断，员工对象如果为null则是添加页面，如果员工不为null则是修改页面-->
 				<button type="submit" class="btn btn-primary" th:text="${selectedept!=null}?'修改':'添加'"></button>
