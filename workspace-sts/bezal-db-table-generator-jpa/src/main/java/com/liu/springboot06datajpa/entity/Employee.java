@@ -18,8 +18,7 @@ public class Employee {
     private String lastName;
     @Column
     private Integer gender;
-    @Column
-    private String email;
+    @Column private String email;
     @Column(name="birth_day")
     private Date birthDay;
     @Column(name="dep_id")
