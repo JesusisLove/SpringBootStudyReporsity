@@ -26,43 +26,4 @@ public class Customer {
     @Column
     private Date birth;
 
-    public Integer getId() {
-        return id;
-    }
-
-    public void setId(Integer id) {
-        this.id = id;
-    }
-
-    public String getCusName() {
-        return cusName;
-    }
-
-    public void setCusName(String cusName) {
-        this.cusName = cusName;
-    }
-
-    public String getCusEmail() {
-        return cusEmail;
-    }
-
-    public void setCusEmail(String cusEmail) {
-        this.cusEmail = cusEmail;
-    }
-
-    public Integer getGender() {
-        return gender;
-    }
-
-    public void setGender(Integer gender) {
-        this.gender = gender;
-    }
-
-    public Date getBirth() {
-        return birth;
-    }
-
-    public void setBirth(Date birth) {
-        this.birth = birth;
-    }
 }
