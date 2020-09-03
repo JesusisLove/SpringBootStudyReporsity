@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!--
+关于Mybatis的SQL文件映射该怎么写，我们要参照Mybatis的官方文档，官方文档都托管到了GitHub下
+我们就从GitHub网站去搜索MyBatis的相关资料
+配置的参照例子
+https://mybatis.org/mybatis-3/getting-started.html
+
+-->
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.liu.springboot04web.mapper.BankKouzaMstMapper">
+
+    <select id="getBankKouzaAll" resultType="com.liu.springboot04web.bean.BankKouzaMst">
+        select * from bzl_bankkouzamst
+    </select>
+
+    <select id="getBankKouzaById" resultType="com.liu.springboot04web.bean.BankKouzaMst">
+        select * from bzl_bankkouzamst where bank_account_mng_no = #{bankAccountMngNo}
+    </select>
+
+    <update id="updateBankKouza">
+      update bzl_bankkouzamst set
+<!--         sys_id = #{sysId},-->
+<!--         bank_account_mng_no = #{bankAccountMngNo},-->
+        bank_name = #{bankName},
+        branch_no = #{branchNo},
+        branch_name = #{branchName},
+        yokin_type = #{yokinType},
+        bank_account_no = #{bankAccountNo},
+        bank_account_own_name = #{bankAccountOwnName},
+        tantosha_code = #{tantoshaCode}
+      where bank_account_mng_no = #{bankAccountMngNo}
+    </update>
+
+    <select id="getNextSequence" parameterType="map" statementType="CALLABLE">
+          {
+              #{p2,mode=OUT,jdbcType=INTEGER} = call nextval(#{p1,mode=IN})
+          }
+    </select>
+
+    <insert id="insertBankKouza" keyColumn="bank_account_mng_no">
+        insert into `bzl_bankkouzamst` (
+            sys_id,
+            bank_account_mng_no,
+            bank_name,
+            branch_no,
+            branch_name,
+            yokin_type,
+            bank_account_no,
+            bank_account_own_name,
+            tantosha_code
+         )
+        values (
+            #{sysId},
+            #{bankAccountMngNo},
+            #{bankName},
+            #{branchNo},
+            #{branchName},
+            #{yokinType},
+            #{bankAccountNo},
+            #{bankAccountOwnName},
+            #{tantoshaCode}
+        )
+    </insert>
+
+    <delete id="deleteBankKouza">
+        delete from bzl_bankkouzamst where bank_account_mng_no = #{bankAccountMngNo}
+    </delete>
+
+</mapper>

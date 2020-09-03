@@ -7,7 +7,7 @@ import java.util.List;
 
 /* DepartmentMapper是采用@Mapper注解的方式访问数据库 */
 
-@Mapper // 该注解告诉MyBatis，DepartmentMapper是一个操作数据库的Mapper，扫描该interface并装配到容器中
+//@Mapper // 该注解告诉MyBatis，DepartmentMapper是一个操作数据库的Mapper，扫描该interface并装配到容器中
 public interface DepartmentMapper {
 
     @Select("select * from `bezal_department` where `dep_id`=${depId}")

@@ -16,7 +16,7 @@ import org.apache.ibatis.annotations.Mapper;
 
 import java.util.List;
 
-@Mapper //因为在SpringBoot06DataMybatisApplication处注解了@MapperScan，此处就可以不需要再注解@Mapper了😊
+//@Mapper //因为在SpringBoot06DataMybatisApplication处注解了@MapperScan，此处就可以不需要再注解@Mapper了😊
 // 扫描该接口，并装配到容器中
 public interface EmployeeMapper {
     public Employee getEmpById(Integer id);

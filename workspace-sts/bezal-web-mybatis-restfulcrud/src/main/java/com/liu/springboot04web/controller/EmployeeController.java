@@ -29,14 +29,14 @@ public class EmployeeController {
 
         // 放在请求域中进行共享，使得可以在页面那里取得这些信息
         model.addAttribute("emps", employeeCollection);
-        /* thymeleaf模版引擎就会拼串，自动指定到类路径的【templates/】下，去找empolyees/list.html
+        /* thymeleaf模版引擎就会拼串，自动指定到类路径的【templates/】下，去找empolyees/employeelist.html
                 参看【ThymeleafProperties.java】
                        →【private String prefix = DEFAULT_PREFIX】
                             →【DEFAULT_PREFIX = "classpath:/templates/】
                        →【private String suffix = DEFAULT_SUFFIX;】
                             →【DEFAULT_SUFFIX = ".html"】;
         */
-        return "empolyees/list";
+        return "empolyees/employeelist";
     }
 
     // 2020/07/30 当点击【员工添加】按钮时，来到员工添加页面
@@ -47,7 +47,7 @@ public class EmployeeController {
         model.addAttribute("depts", departmentCollection);
 
         // 来到员工添加页面
-        return "empolyees/emp_add_update";//empinfo//"empolyees/addemp"
+        return "empolyees/emp_add_update";
     }
 
     // 2020/07/30 在添加员工页面里点击【添加】按钮，执行员工添加操作
@@ -60,7 +60,7 @@ public class EmployeeController {
     * */
     @PostMapping("/emp") //👈addemp.html页面，点击【添加】按钮发来的请求（因为是POST，所以是一个追加请求）
     public String doEmpAdd(Employee employee,Model model) {
-        System.out.println("" + employee);
+//        System.out.println("" + employee);
         // 执行员工保存操作
         emplyeeDao.save(employee);
         // 重定向到员工列表显示页面
@@ -87,7 +87,7 @@ public class EmployeeController {
         // 放在请求域中进行共享，使得可以在页面那里取得这些信息
         model.addAttribute("depts", departmentCollection);
 
-        return "empolyees/emp_add_update";//empinfo//"empolyees/addemp"
+        return "empolyees/emp_add_update";
     }
 
     // 2020/07/31 在修改员工页面里，点击【修改】按钮，执行员工信息更新操作
@@ -101,7 +101,6 @@ public class EmployeeController {
      * */
     @PutMapping("/emp")
     public String updateEmployee(@ModelAttribute Employee employee) {
-        System.out.println("修改的员工数据：" + employee.toString());
         emplyeeDao.save(employee);
         return "redirect:/emps";
     }
