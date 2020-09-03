@@ -41,9 +41,9 @@ public class DepartmentController {
     // 2020/07/30 当点击【部门添加】按钮时，来到员工添加页面
     @GetMapping("/dept") //👈list.html页面，点击【员工添加】按钮发来的请求（因为是GET，所以是一个查询请求）
     public String toAddEmp(Model model) {
-        Collection<Department> departmentCollection = departmentDao.getDepartments();
-        // 放在请求域中进行共享，使得可以在页面那里取得这些信息
-        model.addAttribute("depts", departmentCollection);
+//        Collection<Department> departmentCollection = departmentDao.getDepartments();
+//        // 放在请求域中进行共享，使得可以在页面那里取得这些信息
+//        model.addAttribute("depts", departmentCollection);
 
         // 来到员工添加页面
         return "departments/dept_add_update";
@@ -80,7 +80,6 @@ public class DepartmentController {
     public String doEmpEdit(@PathVariable("id") Integer id,Model model) {
         // 因为查询的部门要在页面上回显，所以将取得的信息收纳在model里面
         Department department = departmentDao.getDepartment(id);
-
         // 放在请求域中进行共享，使得可以在页面那里取得这些信息
         model.addAttribute("selectedept", department);
 
@@ -98,7 +97,6 @@ public class DepartmentController {
      * */
     @PutMapping("/dept")
     public String updateEmployee(@ModelAttribute Department department) {
-        System.out.println("修改的员工数据：" + department.toString());
         departmentDao.save(department);
         return "redirect:/depts";
     }
@@ -106,7 +104,7 @@ public class DepartmentController {
     // 2020/08/01 在员工列表显示页面里点击【删除】按钮，执行员工信息删除操作
     @DeleteMapping("/dept/{id}")
     public String deleteEmployee(@PathVariable("id") Integer id) {
-        System.out.println("删除了员工的数据" );
+        System.out.println("删除了部门的数据" );
         departmentDao.delete(id);
         return "redirect:/depts";
     }
